@@ -4,6 +4,7 @@
   "outputDirectory": "web/dist",
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/favicon\\.ico", "dest": "/favicon.svg" },
     { "src": "/.*", "dest": "/index.html" }
   ]
 }
