@@ -1,0 +1,41 @@
+2026-02-23 09:33:52 [ERROR]: unhandledRejection: Reached the max retries per request limit (which is 3). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 3). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\redis\event_handler.js:207:37)
+    at Object.onceWrapper (node:events:623:26)
+    at Socket.emit (node:events:508:28)
+    at TCP.<anonymous> (node:net:346:12)
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 3). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\redis\event_handler.js:207:37)
+    at Object.onceWrapper (node:events:623:26)
+    at Socket.emit (node:events:508:28)
+    at TCP.<anonymous> (node:net:346:12)
+2026-02-23 09:37:15 [ERROR]: unhandledRejection: Connection is closed.
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.setex (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Namespace.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\config\socket.js:49:17)
+    at Namespace.emit (node:events:508:28)
+    at Namespace.emitReserved (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\typed-events.js:56:22)
+    at Namespace._doConnect (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:279:14)
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:241:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.setex (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Namespace.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\config\socket.js:49:17)
+    at Namespace.emit (node:events:508:28)
+    at Namespace.emitReserved (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\typed-events.js:56:22)
+    at Namespace._doConnect (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:279:14)
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:241:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-03-09 13:24:18 [ERROR]: unhandledRejection: Connection is closed.
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.quit (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Server.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:291:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.quit (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Server.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:291:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)

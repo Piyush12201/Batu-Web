@@ -1,0 +1,912 @@
+2026-02-22 22:39:02 [ERROR]: Error fetching feed posts: column p.engagement_score does not exist
+error: column p.engagement_score does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:73:20
+2026-02-22 22:39:02 [ERROR]: API Error
+2026-02-22 22:39:02 [ERROR]: API Error
+2026-02-22 22:39:02 [ERROR]: Error fetching unread count: column "deleted_at" does not exist
+error: column "deleted_at" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\messages.routes.js:264:20
+2026-02-22 22:39:02 [ERROR]: API Error
+2026-02-22 22:39:02 [ERROR]: API Error
+2026-02-22 22:39:33 [ERROR]: API Error
+2026-02-22 22:39:33 [ERROR]: API Error
+2026-02-22 22:39:36 [ERROR]: Error fetching notifications: column n.actor_id does not exist
+error: column n.actor_id does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\notifications.routes.js:46:20
+2026-02-22 22:39:36 [ERROR]: API Error
+2026-02-22 22:39:36 [ERROR]: API Error
+2026-02-22 22:39:40 [ERROR]: Error fetching feed posts: column p.engagement_score does not exist
+error: column p.engagement_score does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:73:20
+2026-02-22 22:39:40 [ERROR]: API Error
+2026-02-22 22:39:40 [ERROR]: API Error
+2026-02-22 22:39:43 [ERROR]: API Error
+2026-02-22 22:39:43 [ERROR]: API Error
+2026-02-22 22:39:47 [ERROR]: Get user error: column "profile_picture_url" does not exist
+error: column "profile_picture_url" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:366:20
+2026-02-22 22:39:47 [ERROR]: API Error
+2026-02-22 22:39:47 [ERROR]: API Error
+2026-02-22 22:39:47 [ERROR]: Error fetching conversations: column u.profile_picture_url does not exist
+error: column u.profile_picture_url does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\messages.routes.js:66:20
+2026-02-22 22:39:47 [ERROR]: API Error
+2026-02-22 22:39:47 [ERROR]: API Error
+2026-02-22 22:39:50 [ERROR]: API Error
+2026-02-22 22:39:50 [ERROR]: API Error
+2026-02-22 22:39:58 [ERROR]: Get user error: column "profile_picture_url" does not exist
+error: column "profile_picture_url" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:366:20
+2026-02-22 22:39:58 [ERROR]: API Error
+2026-02-22 22:39:58 [ERROR]: API Error
+2026-02-22 22:40:08 [ERROR]: Error fetching feed posts: column p.engagement_score does not exist
+error: column p.engagement_score does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:73:20
+2026-02-22 22:40:08 [ERROR]: API Error
+2026-02-22 22:40:08 [ERROR]: API Error
+2026-02-22 22:40:08 [ERROR]: Error fetching unread count: column "deleted_at" does not exist
+error: column "deleted_at" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\messages.routes.js:264:20
+2026-02-22 22:40:08 [ERROR]: API Error
+2026-02-22 22:40:08 [ERROR]: API Error
+2026-02-22 22:40:15 [ERROR]: Get user error: column "profile_picture_url" does not exist
+error: column "profile_picture_url" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:366:20
+2026-02-22 22:40:15 [ERROR]: API Error
+2026-02-22 22:40:15 [ERROR]: API Error
+2026-02-22 22:40:15 [ERROR]: Error fetching conversations: column u.profile_picture_url does not exist
+error: column u.profile_picture_url does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\messages.routes.js:66:20
+2026-02-22 22:40:15 [ERROR]: API Error
+2026-02-22 22:40:15 [ERROR]: API Error
+2026-02-22 22:40:17 [ERROR]: Error fetching feed posts: column p.engagement_score does not exist
+error: column p.engagement_score does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:73:20
+2026-02-22 22:40:17 [ERROR]: API Error
+2026-02-22 22:40:17 [ERROR]: API Error
+2026-02-22 22:40:21 [ERROR]: Error creating post: column "hashtags" of relation "feed_posts" does not exist
+error: column "hashtags" of relation "feed_posts" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:101:20
+2026-02-22 22:40:21 [ERROR]: API Error
+2026-02-22 22:40:21 [ERROR]: API Error
+2026-02-22 22:40:30 [ERROR]: Error creating post: column "hashtags" of relation "feed_posts" does not exist
+error: column "hashtags" of relation "feed_posts" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:101:20
+2026-02-22 22:40:30 [ERROR]: API Error
+2026-02-22 22:40:30 [ERROR]: API Error
+2026-02-22 22:40:50 [ERROR]: API Error
+2026-02-22 22:40:50 [ERROR]: API Error
+2026-02-22 22:41:06 [ERROR]: Get user error: column "profile_picture_url" does not exist
+error: column "profile_picture_url" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:366:20
+2026-02-22 22:41:06 [ERROR]: API Error
+2026-02-22 22:41:06 [ERROR]: API Error
+2026-02-22 22:41:06 [ERROR]: Error fetching conversations: column u.profile_picture_url does not exist
+error: column u.profile_picture_url does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\messages.routes.js:66:20
+2026-02-22 22:41:06 [ERROR]: API Error
+2026-02-22 22:41:06 [ERROR]: API Error
+2026-02-22 22:41:16 [ERROR]: Error fetching notifications: column n.actor_id does not exist
+error: column n.actor_id does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\notifications.routes.js:46:20
+2026-02-22 22:41:16 [ERROR]: API Error
+2026-02-22 22:41:16 [ERROR]: API Error
+2026-02-22 22:41:19 [ERROR]: API Error
+2026-02-22 22:41:19 [ERROR]: API Error
+2026-02-22 22:44:18 [ERROR]: Get user error: column "profile_picture_url" does not exist
+error: column "profile_picture_url" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:366:20
+2026-02-22 22:44:18 [ERROR]: API Error
+2026-02-22 22:44:18 [ERROR]: API Error
+2026-02-22 22:44:23 [ERROR]: Error fetching feed posts: column u.profile_picture_url does not exist
+error: column u.profile_picture_url does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:73:20
+2026-02-22 22:44:23 [ERROR]: API Error
+2026-02-22 22:44:23 [ERROR]: API Error
+2026-02-22 22:44:26 [ERROR]: API Error
+2026-02-22 22:44:26 [ERROR]: API Error
+2026-02-22 22:44:29 [ERROR]: API Error
+2026-02-22 22:44:29 [ERROR]: API Error
+2026-02-22 22:44:39 [ERROR]: API Error
+2026-02-22 22:44:39 [ERROR]: API Error
+2026-02-22 22:44:41 [ERROR]: API Error
+2026-02-22 22:44:41 [ERROR]: API Error
+2026-02-22 22:44:44 [ERROR]: API Error
+2026-02-22 22:44:44 [ERROR]: API Error
+2026-02-22 22:44:46 [ERROR]: Get user error: column "profile_picture_url" does not exist
+error: column "profile_picture_url" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:366:20
+2026-02-22 22:44:46 [ERROR]: API Error
+2026-02-22 22:44:46 [ERROR]: API Error
+2026-02-22 22:44:46 [ERROR]: Error fetching conversations: column u.profile_picture_url does not exist
+error: column u.profile_picture_url does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\messages.routes.js:66:20
+2026-02-22 22:44:46 [ERROR]: API Error
+2026-02-22 22:44:46 [ERROR]: API Error
+2026-02-22 22:44:51 [ERROR]: API Error
+2026-02-22 22:44:51 [ERROR]: API Error
+2026-02-22 22:49:05 [ERROR]: API Error
+2026-02-22 22:49:05 [ERROR]: API Error
+2026-02-22 22:49:06 [ERROR]: API Error
+2026-02-22 22:49:06 [ERROR]: API Error
+2026-02-22 22:53:15 [ERROR]: Error creating post: column "connected_user_id" does not exist
+error: column "connected_user_id" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:142:31
+2026-02-22 22:53:15 [ERROR]: API Error
+2026-02-22 22:53:15 [ERROR]: API Error
+2026-02-22 23:00:31 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:345:7
+2026-02-22 23:00:31 [ERROR]: API Error
+2026-02-22 23:00:31 [ERROR]: API Error
+2026-02-22 23:01:05 [ERROR]: API Error
+2026-02-22 23:01:05 [ERROR]: API Error
+2026-02-22 23:01:21 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:345:7
+2026-02-22 23:01:21 [ERROR]: API Error
+2026-02-22 23:01:21 [ERROR]: API Error
+2026-02-22 23:03:03 [ERROR]: API Error
+2026-02-22 23:03:03 [ERROR]: API Error
+2026-02-22 23:03:33 [ERROR]: API Error
+2026-02-22 23:03:33 [ERROR]: API Error
+2026-02-22 23:05:53 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:345:7
+2026-02-22 23:05:53 [ERROR]: API Error
+2026-02-22 23:05:53 [ERROR]: API Error
+2026-02-22 23:06:18 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:345:7
+2026-02-22 23:06:18 [ERROR]: API Error
+2026-02-22 23:06:18 [ERROR]: API Error
+2026-02-23 09:33:52 [ERROR]: unhandledRejection: Reached the max retries per request limit (which is 3). Refer to "maxRetriesPerRequest" option for details.
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 3). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\redis\event_handler.js:207:37)
+    at Object.onceWrapper (node:events:623:26)
+    at Socket.emit (node:events:508:28)
+    at TCP.<anonymous> (node:net:346:12)
+MaxRetriesPerRequestError: Reached the max retries per request limit (which is 3). Refer to "maxRetriesPerRequest" option for details.
+    at Socket.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\redis\event_handler.js:207:37)
+    at Object.onceWrapper (node:events:623:26)
+    at Socket.emit (node:events:508:28)
+    at TCP.<anonymous> (node:net:346:12)
+2026-02-23 09:37:15 [ERROR]: unhandledRejection: Connection is closed.
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.setex (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Namespace.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\config\socket.js:49:17)
+    at Namespace.emit (node:events:508:28)
+    at Namespace.emitReserved (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\typed-events.js:56:22)
+    at Namespace._doConnect (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:279:14)
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:241:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.setex (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Namespace.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\config\socket.js:49:17)
+    at Namespace.emit (node:events:508:28)
+    at Namespace.emitReserved (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\typed-events.js:56:22)
+    at Namespace._doConnect (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:279:14)
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\socket.io\dist\namespace.js:241:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11)
+2026-02-23 09:44:16 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 09:44:21 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 09:44:42 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 09:48:57 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 09:50:22 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\auth.routes.js:345:7
+2026-02-23 09:50:22 [ERROR]: API Error
+2026-02-23 09:50:22 [ERROR]: API Error
+2026-02-23 10:00:37 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:37 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:37 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:44 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:44 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:45 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:49 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:49 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:49 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:54 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:54 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:00:54 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:05 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:05 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:06 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:19 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:19 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:20 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:30 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:30 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:31 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:32 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:32 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:01:32 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-23 10:13:13 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at Object.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:229:8)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2026-02-24 10:46:49 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-24 10:48:57 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 09:55:35 [ERROR]: Error creating post: column "connected_user_id" does not exist
+error: column "connected_user_id" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:142:31
+2026-02-26 09:55:35 [ERROR]: API Error
+2026-02-26 09:55:35 [ERROR]: API Error
+2026-02-26 21:45:57 [ERROR]: API Error
+2026-02-26 21:45:57 [ERROR]: API Error
+2026-02-26 21:46:46 [ERROR]: API Error
+2026-02-26 21:46:46 [ERROR]: API Error
+2026-02-26 21:59:06 [ERROR]: API Error
+2026-02-26 21:59:06 [ERROR]: API Error
+2026-02-26 22:01:16 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:07:53 [ERROR]: API Error
+2026-02-26 22:07:53 [ERROR]: API Error
+2026-02-26 22:08:31 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:13:52 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:15:46 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:16:35 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:16:51 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:35:03 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:36:54 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-26 22:37:41 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-27 10:19:59 [ERROR]: API Error
+2026-02-27 10:19:59 [ERROR]: API Error
+2026-02-27 10:26:43 [ERROR]: API Error
+2026-02-27 10:26:43 [ERROR]: API Error
+2026-02-27 10:26:51 [ERROR]: API Error
+2026-02-27 10:26:51 [ERROR]: API Error
+2026-02-27 10:37:54 [ERROR]: API Error
+2026-02-27 10:37:54 [ERROR]: API Error
+2026-02-27 13:37:20 [ERROR]: API Error
+2026-02-27 13:37:20 [ERROR]: API Error
+2026-02-27 13:42:17 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-02-27 13:42:50 [ERROR]: ❌ Database connection failed: password authentication failed for user "postgres"
+error: password authentication failed for user "postgres"
+    at parseErrorMessage (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-02-27 13:44:11 [ERROR]: ❌ Database connection failed: password authentication failed for user "postgres"
+error: password authentication failed for user "postgres"
+    at parseErrorMessage (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\parser.js:305:11)
+    at Parser.handlePacket (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\parser.js:143:27)
+    at Parser.parse (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\parser.js:37:38)
+    at Socket.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-02-27 18:27:02 [ERROR]: API Error
+2026-02-27 18:27:02 [ERROR]: API Error
+2026-02-27 18:36:57 [ERROR]: API Error
+2026-02-27 18:36:57 [ERROR]: API Error
+2026-03-06 09:44:36 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 10:04:13 [ERROR]: Unhandled error: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 10:44:46 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 11:00:28 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 11:00:49 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 11:03:39 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 11:03:51 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 11:18:33 [ERROR]: Unhandled error: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-06 11:18:41 [ERROR]: Unhandled error: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:41:13 [ERROR]: Error creating post: column "connected_user_id" does not exist
+error: column "connected_user_id" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:142:31
+2026-03-09 09:41:13 [ERROR]: API Error
+2026-03-09 09:41:13 [ERROR]: API Error
+2026-03-09 09:46:06 [ERROR]: Error uploading image to Cloudinary:
+2026-03-09 09:46:06 [ERROR]: Error uploading post image: Failed to upload image
+Error: Failed to upload image
+    at MediaService.uploadImage (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\services\media.service.js:77:13)
+    at async MediaService.uploadPostImage (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\services\media.service.js:133:14)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\upload.routes.js:92:22
+2026-03-09 09:46:06 [ERROR]: Error uploading post image: Failed to upload image
+Error: Failed to upload image
+    at MediaService.uploadImage (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\services\media.service.js:77:13)
+    at async MediaService.uploadPostImage (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\services\media.service.js:133:14)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\upload.routes.js:92:22
+2026-03-09 09:46:06 [ERROR]: API Error
+2026-03-09 09:46:06 [ERROR]: API Error
+2026-03-09 09:49:23 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:49:28 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:49:31 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:49:35 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:49:51 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:49:59 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:50:35 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 09:51:40 [ERROR]: Error creating post: column "connected_user_id" does not exist
+error: column "connected_user_id" does not exist
+    at C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\routes\feed.routes.js:142:31
+2026-03-09 09:51:40 [ERROR]: API Error
+2026-03-09 09:51:40 [ERROR]: API Error
+2026-03-09 10:21:29 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 10:49:19 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 13:24:18 [ERROR]: unhandledRejection: Connection is closed.
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.quit (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Server.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:291:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Error: Connection is closed.
+    at EventEmitter.sendCommand (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\Redis.js:333:28)
+    at EventEmitter.quit (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\node_modules\ioredis\built\utils\Commander.js:90:25)
+    at Server.<anonymous> (C:\Users\HP\OneDrive\Desktop\Bhatu-Alumini-App\backend\server.js:291:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-03-09 13:47:29 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-09 20:57:22 [ERROR]: Uncaught Exception: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-03-10 11:40:29 [ERROR]: Error fetching messages: invalid input syntax for type uuid: "e247d9e8-fff0-432f-bbd0-7ef4c2b7697d_87b6cf26-c98c-4ffe-8af7-2c76759ff546"
+error: invalid input syntax for type uuid: "e247d9e8-fff0-432f-bbd0-7ef4c2b7697d_87b6cf26-c98c-4ffe-8af7-2c76759ff546"
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\Batu-alumini-connect-master\backend\routes\messages.routes.js:129:20
+2026-03-10 11:40:29 [ERROR]: API Error
+2026-03-10 11:40:29 [ERROR]: API Error
+2026-03-10 21:35:40 [ERROR]: Error fetching messages: invalid input syntax for type uuid: "299c17de-53c3-450a-aa0c-4481f38d5994_e247d9e8-fff0-432f-bbd0-7ef4c2b7697d"
+error: invalid input syntax for type uuid: "299c17de-53c3-450a-aa0c-4481f38d5994_e247d9e8-fff0-432f-bbd0-7ef4c2b7697d"
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\Batu-alumini-connect-master\backend\routes\messages.routes.js:129:20
+2026-03-10 21:35:40 [ERROR]: API Error
+2026-03-10 21:35:40 [ERROR]: API Error

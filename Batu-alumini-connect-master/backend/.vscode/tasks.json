@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Add sent_at to messages table",
+			"type": "shell",
+			"command": "psql -U postgres -d YOUR_DB_NAME -c \"ALTER TABLE messages ADD COLUMN IF NOT EXISTS sent_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;\"",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
