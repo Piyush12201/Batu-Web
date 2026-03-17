@@ -204,10 +204,28 @@ const migrations = [
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         revoked_at TIMESTAMP
       );
+
+      -- Ensure existing deployments have required refresh token fields
+      ALTER TABLE refresh_tokens ADD COLUMN IF NOT EXISTS revoked_at TIMESTAMP;
+      ALTER TABLE refresh_tokens ALTER COLUMN token TYPE TEXT;
+
+      DO $$
+      BEGIN
+        IF NOT EXISTS (
+          SELECT 1
+          FROM pg_constraint
+          WHERE conname = 'refresh_tokens_token_key'
+            AND conrelid = 'refresh_tokens'::regclass
+        ) THEN
+          ALTER TABLE refresh_tokens ADD CONSTRAINT refresh_tokens_token_key UNIQUE (token);
+        END IF;
+      END $$;
       
       CREATE INDEX IF NOT EXISTS idx_refresh_tokens_user_id ON refresh_tokens(user_id);
       CREATE INDEX IF NOT EXISTS idx_refresh_tokens_token ON refresh_tokens(token);
       CREATE INDEX IF NOT EXISTS idx_refresh_tokens_expires ON refresh_tokens(expires_at);
+
+      ALTER TABLE admin_refresh_tokens ADD COLUMN IF NOT EXISTS revoked_at TIMESTAMP;
     `
   },
   {

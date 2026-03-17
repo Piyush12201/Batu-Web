@@ -227,4 +227,42 @@
   .header-right {
     gap: 12px;
   }
+
+  .profile-dropdown {
+    right: -8px;
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 520px) {
+  .header-content {
+    padding: 0 10px;
+  }
+
+  .header-logo h1 {
+    font-size: 16px;
+  }
+
+  .header-logo-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header-right {
+    gap: 8px;
+  }
+
+  .header-icon {
+    padding: 6px;
+  }
+
+  .header-right a.header-icon:first-child {
+    display: none;
+  }
+
+  .profile-button,
+  .profile-avatar {
+    width: 34px;
+    height: 34px;
+  }
 }

@@ -910,3 +910,197 @@ error: invalid input syntax for type uuid: "299c17de-53c3-450a-aa0c-4481f38d5994
     at async C:\Users\HP\Downloads\Batu-alumini-connect-master\Batu-alumini-connect-master\backend\routes\messages.routes.js:129:20
 2026-03-10 21:35:40 [ERROR]: API Error
 2026-03-10 21:35:40 [ERROR]: API Error
+2026-03-17 12:54:32 [ERROR]: Login error: relation "users" does not exist
+error: relation "users" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:166:20
+2026-03-17 12:54:32 [ERROR]: API Error
+2026-03-17 12:54:32 [ERROR]: API Error
+2026-03-17 12:55:02 [ERROR]: API Error
+2026-03-17 12:55:02 [ERROR]: API Error
+2026-03-17 12:55:10 [ERROR]: API Error
+2026-03-17 12:55:10 [ERROR]: API Error
+2026-03-17 13:01:08 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:35 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:35 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:35 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:37 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:04:53 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:04:54 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:05:01 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:05:25 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:05:25 [ERROR]: API Error
+2026-03-17 13:05:25 [ERROR]: API Error
+2026-03-17 13:06:13 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:06:13 [ERROR]: API Error
+2026-03-17 13:06:13 [ERROR]: API Error
+2026-03-17 13:06:21 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:06:21 [ERROR]: API Error
+2026-03-17 13:06:21 [ERROR]: API Error
+2026-03-17 13:06:33 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:06:33 [ERROR]: API Error
+2026-03-17 13:06:33 [ERROR]: API Error
+2026-03-17 13:07:33 [ERROR]: Error fetching feed posts: column p.engagement_score does not exist
+error: column p.engagement_score does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\feed.routes.js:73:20
+2026-03-17 13:07:33 [ERROR]: API Error
+2026-03-17 13:07:33 [ERROR]: API Error
+2026-03-17 13:08:25 [ERROR]: Error fetching notifications: column n.actor_id does not exist
+error: column n.actor_id does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\notifications.routes.js:46:20
+2026-03-17 13:08:25 [ERROR]: API Error
+2026-03-17 13:08:25 [ERROR]: API Error
+2026-03-17 13:08:39 [ERROR]: Error fetching notifications: column n.actor_id does not exist
+error: column n.actor_id does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\notifications.routes.js:46:20
+2026-03-17 13:08:39 [ERROR]: API Error
+2026-03-17 13:08:39 [ERROR]: API Error
+2026-03-17 13:18:13 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:18:13 [ERROR]: API Error
+2026-03-17 13:18:13 [ERROR]: API Error
+2026-03-17 13:19:07 [ERROR]: API Error
+2026-03-17 13:19:07 [ERROR]: API Error
+2026-03-17 13:19:10 [ERROR]: API Error
+2026-03-17 13:19:10 [ERROR]: API Error
+2026-03-17 13:19:13 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:19:13 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:19:15 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:19:56 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:19:56 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:20:31 [ERROR]: API Error
+2026-03-17 13:20:31 [ERROR]: API Error
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:29 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:23:29 [ERROR]: API Error
+2026-03-17 13:23:29 [ERROR]: API Error
+2026-03-17 13:24:27 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:24:29 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:24:29 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:24:30 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:35:49 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)

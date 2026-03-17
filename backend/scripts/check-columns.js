@@ -3,14 +3,26 @@ const { Pool } = require('pg');
 
 dotenv.config();
 
-const pool = new Pool({
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  host: process.env.DB_HOST,
-  port: process.env.DB_PORT,
-  database: process.env.DB_NAME,
-  ssl: process.env.DB_SSL === 'true' ? { rejectUnauthorized: false } : false,
-});
+const hasConnectionString = Boolean(process.env.DATABASE_URL);
+const shouldUseSsl = process.env.DB_SSL === 'true' || /sslmode=require/i.test(process.env.DATABASE_URL || '');
+
+const poolConfig = hasConnectionString
+  ? {
+      connectionString: process.env.DATABASE_URL,
+    }
+  : {
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+      host: process.env.DB_HOST,
+      port: process.env.DB_PORT,
+      database: process.env.DB_NAME,
+    };
+
+if (shouldUseSsl) {
+  poolConfig.ssl = { rejectUnauthorized: false };
+}
+
+const pool = new Pool(poolConfig);
 
 const query = `
   select column_name

@@ -11,6 +11,7 @@ interface ApiResponse<T> {
 class ApiClient {
   private baseUrl: string;
   private accessToken: string | null = null;
+  private refreshPromise: Promise<string | null> | null = null;
 
   constructor(baseUrl: string = API_URL) {
     this.baseUrl = baseUrl;
@@ -46,7 +47,17 @@ class ApiClient {
    * Refresh access token
    */
   private async refreshAccessToken(): Promise<string | null> {
+    if (this.refreshPromise) {
+      return this.refreshPromise;
+    }
+
+    this.refreshPromise = (async () => {
     try {
+      const userType = localStorage.getItem('userType');
+      if (userType === 'admin') {
+        return null;
+      }
+
       const refreshToken = localStorage.getItem('refreshToken');
       
       if (!refreshToken) {
@@ -74,11 +85,22 @@ class ApiClient {
         return accessToken;
       }
 
+      // Refresh token is no longer valid; clear stale auth to stop retry loops.
+      localStorage.removeItem('accessToken');
+      localStorage.removeItem('refreshToken');
+      localStorage.removeItem('userType');
+      this.clearToken();
+
       return null;
     } catch (error) {
       console.error('Error refreshing token:', error);
       return null;
+    } finally {
+      this.refreshPromise = null;
     }
+    })();
+
+    return this.refreshPromise;
   }
 
   /**
@@ -90,11 +112,16 @@ class ApiClient {
   ): Promise<ApiResponse<T>> {
     try {
       const token = this.accessToken || this.getStoredToken();
+      const userType = localStorage.getItem('userType');
       const isPublicAuthEndpoint =
         endpoint === '/auth/login' ||
         endpoint === '/auth/admin-login' ||
         endpoint === '/auth/register' ||
         endpoint === '/auth/refresh-token';
+      const shouldAttemptRefresh =
+        endpoint !== '/auth/logout' &&
+        !isPublicAuthEndpoint &&
+        userType !== 'admin';
       
       const headers: HeadersInit = {
         'Content-Type': 'application/json',
@@ -111,7 +138,7 @@ class ApiClient {
       });
 
       // Handle 401 - try to refresh token
-      if (response.status === 401 && token) {
+      if (response.status === 401 && token && shouldAttemptRefresh) {
         const newToken = await this.refreshAccessToken();
         
         if (newToken) {

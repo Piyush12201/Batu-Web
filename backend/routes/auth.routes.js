@@ -364,13 +364,29 @@ router.get('/me', authenticateUser, async (req, res) => {
     const userId = req.userId;
 
     const result = await db.query(`
-      SELECT 
-        id, full_name, email, mobile_number, branch, passport_year,
-        designation, company_name, years_of_experience, job_type,
-        sector, skills, profile_picture_url, bio, location,
-        current_city, linkedin_profile, id_proof_url, status, created_at
-      FROM users
-      WHERE id = $1
+      SELECT
+        u.id,
+        u.full_name,
+        u.email,
+        u.mobile_number,
+        u.branch,
+        u.passport_year,
+        u.designation,
+        u.company_name,
+        u.years_of_experience,
+        u.job_type,
+        u.sector,
+        u.skills,
+        u.profile_picture_url,
+        to_jsonb(u) ->> 'bio' AS bio,
+        to_jsonb(u) ->> 'location' AS location,
+        u.current_city,
+        u.linkedin_profile,
+        u.id_proof_url,
+        u.status,
+        u.created_at
+      FROM users u
+      WHERE u.id = $1
     `, [userId]);
 
     if (result.rows.length === 0) {

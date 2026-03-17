@@ -1270,6 +1270,14 @@
   .broadcast-container {
     max-width: 100%;
   }
+
+  .modern-table-container {
+    overflow-x: auto;
+  }
+
+  .modern-table {
+    min-width: 680px;
+  }
   
   .form-actions {
     flex-direction: column;

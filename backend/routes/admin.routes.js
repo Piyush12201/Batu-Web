@@ -537,18 +537,39 @@ router.post('/broadcast', authenticateAdmin, async (req, res) => {
       const users = usersResult.rows;
       console.log(`📤 Sending to ${users.length} approved users`);
 
-
-      // Use the system broadcast user as sender_id
-      const { rows: systemUserRows } = await client.query(
-        "SELECT id FROM users WHERE email = 'broadcast@system.local' LIMIT 1"
+      // Ensure a dedicated system sender exists for broadcast messages.
+      const systemEmail = 'broadcast@system.local';
+      let { rows: systemUserRows } = await client.query(
+        'SELECT id FROM users WHERE email = $1 LIMIT 1',
+        [systemEmail]
       );
-      const systemAdminId = systemUserRows[0]?.id;
-      if (!systemAdminId) throw new Error('System broadcast user not found');
+
+      if (systemUserRows.length === 0) {
+        const createdSystemUser = await client.query(
+          `INSERT INTO users (
+            full_name,
+            email,
+            mobile_number,
+            branch,
+            passport_year,
+            current_city,
+            status,
+            created_at,
+            updated_at
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+          RETURNING id`,
+          ['System Broadcast', systemEmail, '0000000000', 'System', 2000, 'System', 'approved']
+        );
+
+        systemUserRows = createdSystemUser.rows;
+      }
+
+      const systemAdminId = systemUserRows[0].id;
 
       for (const user of users) {
         await client.query(
-          `INSERT INTO messages (sender_id, receiver_id, content, broadcast_id, sent_at, created_at)
-           VALUES ($1, $2, $3, $4, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)`,
+          `INSERT INTO messages (sender_id, receiver_id, content, broadcast_id, created_at)
+           VALUES ($1, $2, $3, $4, CURRENT_TIMESTAMP)`,
           [systemAdminId, user.id, `**${title}**\n\n${message}`, broadcast.id]
         );
       }

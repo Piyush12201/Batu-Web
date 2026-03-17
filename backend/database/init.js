@@ -83,7 +83,8 @@ const initializeDatabase = async () => {
         user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
         token VARCHAR(500) NOT NULL,
         expires_at TIMESTAMP NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        revoked_at TIMESTAMP
       );
     `);
     console.log('✅ Refresh Tokens table created');
@@ -95,7 +96,8 @@ const initializeDatabase = async () => {
         admin_id UUID NOT NULL REFERENCES admin_users(id) ON DELETE CASCADE,
         token VARCHAR(500) NOT NULL,
         expires_at TIMESTAMP NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        revoked_at TIMESTAMP
       );
     `);
     console.log('✅ Admin Refresh Tokens table created');

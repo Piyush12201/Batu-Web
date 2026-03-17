@@ -1,6 +1,7 @@
 ﻿.opportunities-page {
   max-width: 900px;
   margin: 0 auto;
+  min-width: 0;
 }
 
 .opportunities-hero {
@@ -186,6 +187,7 @@
   font-weight: 600;
   color: var(--text-strong);
   margin: 0 0 8px 0;
+  overflow-wrap: anywhere;
 }
 
 .opportunity-company,
@@ -199,6 +201,7 @@
   color: var(--text-strong);
   line-height: 1.6;
   margin: 16px 0;
+  overflow-wrap: anywhere;
 }
 
 .opportunity-meta-chips {
@@ -216,12 +219,15 @@
   background: var(--bg-soft);
   color: var(--text-muted);
   padding: 4px 9px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .opportunity-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
   padding-top: 16px;
   border-top: 1px solid var(--border-subtle);
   font-size: 13px;
@@ -233,6 +239,11 @@
   display: flex;
   justify-content: flex-end;
   gap: 8px;
+  flex-wrap: wrap;
+}
+
+.opportunity-actions .button {
+  min-width: 120px;
 }
 
 .apply-button {
@@ -354,6 +365,10 @@
 }
 
 @media (max-width: 768px) {
+  .opportunities-page {
+    padding: 0 2px;
+  }
+
   .opportunities-hero {
     flex-direction: column;
     align-items: flex-start;
@@ -368,20 +383,52 @@
   .opportunity-stat-card {
     text-align: left;
     flex: 1;
+    min-width: 0;
   }
 
   .post-opp-button {
     width: 100%;
+    min-width: 0;
+  }
+
+  .create-opportunity-card,
+  .opportunity-card {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .filter-buttons {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: visible;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 0;
   }
 
   .filter-button {
-    flex-shrink: 0;
+    flex: 1 1 calc(50% - 5px);
+    min-width: 0;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .opportunity-card-top {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .opportunity-badge {
+    margin-bottom: 0;
+  }
+
+  .opportunity-footer {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .opportunity-actions {
@@ -389,8 +436,10 @@
     flex-wrap: wrap;
   }
 
+  .opportunity-actions .button,
   .apply-button {
     width: 100%;
+    min-width: 0;
   }
 
   .opportunity-spotlight-header {
@@ -403,6 +452,40 @@
 
   .spotlight-meta-card.wide {
     grid-column: auto;
+  }
+
+  .opportunity-spotlight-actions .button {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .opportunities-page {
+    padding: 0;
+  }
+
+  .filter-buttons {
+    gap: 8px;
+  }
+
+  .opportunities-subtitle {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .opportunity-card h3 {
+    font-size: 18px;
+  }
+
+  .filter-button {
+    flex: 1 1 100%;
+    padding: 9px 12px;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .opportunity-freshness {
+    font-size: 11px;
   }
 }
 

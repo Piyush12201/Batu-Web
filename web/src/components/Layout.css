@@ -25,6 +25,12 @@
   }
 }
 
+@media (max-width: 520px) {
+  .layout-main {
+    padding: 12px;
+  }
+}
+
 .sidebar-overlay {
   position: fixed;
   top: 64px;

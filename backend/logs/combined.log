@@ -11095,3 +11095,953 @@ error: invalid input syntax for type uuid: "299c17de-53c3-450a-aa0c-4481f38d5994
 2026-03-17 12:44:19 [INFO]: User logged out: 87b6cf26-c98c-4ffe-8af7-2c76759ff546
 2026-03-17 12:44:19 [INFO]: POST /logout 200 10ms
 2026-03-17 12:44:19 [INFO]: User disconnected: 87b6cf26-c98c-4ffe-8af7-2c76759ff546 (Socket: AE11_qaqSOqTqTxIAAAD)
+2026-03-17 12:52:39 [INFO]: ✅ Socket.IO initialized
+2026-03-17 12:52:40 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 12:52:40 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 12:52:40 [INFO]: 📍 Environment: development
+2026-03-17 12:52:40 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 12:52:40 [INFO]: 💾 Redis connected
+2026-03-17 12:52:40 [INFO]: 🗄️  Database connected
+2026-03-17 12:52:40 [INFO]: ✅ Database connected successfully
+2026-03-17 12:52:53 [INFO]: ✅ Socket.IO initialized
+2026-03-17 12:52:54 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 12:52:54 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 12:52:54 [INFO]: 📍 Environment: development
+2026-03-17 12:52:54 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 12:52:54 [INFO]: 💾 Redis connected
+2026-03-17 12:52:54 [INFO]: 🗄️  Database connected
+2026-03-17 12:52:57 [INFO]: ✅ Database connected successfully
+2026-03-17 12:54:29 [INFO]: OPTIONS /api/auth/login 204 12ms
+2026-03-17 12:54:32 [ERROR]: Login error: relation "users" does not exist
+error: relation "users" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:166:20
+2026-03-17 12:54:32 [ERROR]: API Error
+2026-03-17 12:54:32 [WARN]: Slow API Request
+2026-03-17 12:54:32 [ERROR]: API Error
+2026-03-17 12:54:32 [WARN]: Slow API Request
+2026-03-17 12:54:32 [INFO]: POST /login 500 2450ms
+2026-03-17 12:55:00 [INFO]: OPTIONS /api/auth/admin-login 204 1ms
+2026-03-17 12:55:02 [ERROR]: API Error
+2026-03-17 12:55:02 [WARN]: Slow API Request
+2026-03-17 12:55:02 [ERROR]: API Error
+2026-03-17 12:55:02 [WARN]: Slow API Request
+2026-03-17 12:55:02 [INFO]: POST /admin-login 500 1808ms
+2026-03-17 12:55:07 [INFO]: OPTIONS /api/auth/admin-login 204 1ms
+2026-03-17 12:55:10 [ERROR]: API Error
+2026-03-17 12:55:10 [WARN]: Slow API Request
+2026-03-17 12:55:10 [ERROR]: API Error
+2026-03-17 12:55:10 [WARN]: Slow API Request
+2026-03-17 12:55:10 [INFO]: POST /admin-login 500 2855ms
+2026-03-17 13:00:11 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:00:12 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:00:12 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:00:12 [INFO]: 📍 Environment: development
+2026-03-17 13:00:12 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:00:12 [INFO]: 💾 Redis connected
+2026-03-17 13:00:12 [INFO]: 🗄️  Database connected
+2026-03-17 13:00:15 [INFO]: ✅ Database connected successfully
+2026-03-17 13:01:05 [INFO]: OPTIONS /api/auth/me 204 7ms
+2026-03-17 13:01:05 [INFO]: GET /me 401 16ms
+2026-03-17 13:01:05 [INFO]: OPTIONS /api/auth/refresh-token 204 1ms
+2026-03-17 13:01:08 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:01:08 [WARN]: Slow API Request
+2026-03-17 13:01:08 [WARN]: Slow API Request
+2026-03-17 13:01:08 [INFO]: POST /refresh-token 401 2457ms
+2026-03-17 13:01:57 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:01:58 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:01:58 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:01:58 [INFO]: 📍 Environment: development
+2026-03-17 13:01:58 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:01:58 [INFO]: 💾 Redis connected
+2026-03-17 13:01:58 [INFO]: 🗄️  Database connected
+2026-03-17 13:02:00 [INFO]: ✅ Database connected successfully
+2026-03-17 13:02:21 [INFO]: OPTIONS /api/auth/admin-login 204 9ms
+2026-03-17 13:02:24 [WARN]: Slow API Request
+2026-03-17 13:02:24 [WARN]: Slow API Request
+2026-03-17 13:02:24 [INFO]: POST /admin-login 200 2453ms
+2026-03-17 13:02:24 [INFO]: OPTIONS /api/admin/stats 204 2ms
+2026-03-17 13:02:24 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 13:02:24 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: lUUKULEhmqyuLOO6AAAB)
+2026-03-17 13:02:25 [WARN]: Slow API Request
+2026-03-17 13:02:25 [WARN]: Slow API Request
+2026-03-17 13:02:25 [INFO]: GET /stats 200 1059ms
+2026-03-17 13:02:30 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 13:02:30 [INFO]: OPTIONS /api/admin/report-filters 204 0ms
+2026-03-17 13:02:31 [WARN]: Slow API Request
+2026-03-17 13:02:31 [WARN]: Slow API Request
+2026-03-17 13:02:31 [INFO]: GET /stats 304 1912ms
+2026-03-17 13:02:31 [INFO]: OPTIONS /api/admin/pending-users 204 0ms
+2026-03-17 13:02:32 [WARN]: Slow API Request
+2026-03-17 13:02:32 [WARN]: Slow API Request
+2026-03-17 13:02:32 [INFO]: GET /stats 304 1424ms
+2026-03-17 13:02:32 [INFO]: OPTIONS /api/admin/approved-users 204 1ms
+2026-03-17 13:02:33 [WARN]: Slow API Request
+2026-03-17 13:02:33 [WARN]: Slow API Request
+2026-03-17 13:02:33 [INFO]: GET /stats 304 1164ms
+2026-03-17 13:02:34 [WARN]: Slow API Request
+2026-03-17 13:02:34 [WARN]: Slow API Request
+2026-03-17 13:02:34 [INFO]: GET /pending-users 304 3090ms
+2026-03-17 13:02:34 [WARN]: Slow API Request
+2026-03-17 13:02:34 [WARN]: Slow API Request
+2026-03-17 13:02:34 [INFO]: GET /stats 304 1017ms
+2026-03-17 13:02:34 [INFO]: OPTIONS /api/auth/logout 204 0ms
+2026-03-17 13:02:34 [INFO]: POST /logout 401 2ms
+2026-03-17 13:02:34 [INFO]: User a51a080a-498f-4e91-a2cc-0d4a711d337b joined room: feed
+2026-03-17 13:02:34 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:02:34 [INFO]: GET /unread/count 401 2ms
+2026-03-17 13:02:34 [INFO]: OPTIONS /api/notifications/unread-count 204 1ms
+2026-03-17 13:02:34 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:02:34 [INFO]: OPTIONS /api/feed/posts 204 0ms
+2026-03-17 13:02:34 [INFO]: GET /unread-count 401 4ms
+2026-03-17 13:02:34 [INFO]: GET /posts 401 2ms
+2026-03-17 13:02:35 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:35 [INFO]: POST /refresh-token 401 260ms
+2026-03-17 13:02:35 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:35 [INFO]: POST /refresh-token 401 262ms
+2026-03-17 13:02:35 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: lUUKULEhmqyuLOO6AAAB)
+2026-03-17 13:02:35 [WARN]: Slow API Request
+2026-03-17 13:02:35 [WARN]: Slow API Request
+2026-03-17 13:02:35 [INFO]: GET /approved-users 200 2451ms
+2026-03-17 13:02:35 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:35 [INFO]: POST /refresh-token 401 269ms
+2026-03-17 13:02:35 [WARN]: Slow API Request
+2026-03-17 13:02:35 [WARN]: Slow API Request
+2026-03-17 13:02:35 [INFO]: GET /report-filters 200 4803ms
+2026-03-17 13:02:37 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:02:37 [WARN]: Slow API Request
+2026-03-17 13:02:37 [WARN]: Slow API Request
+2026-03-17 13:02:37 [INFO]: POST /refresh-token 401 2178ms
+2026-03-17 13:04:04 [INFO]: OPTIONS /api/auth/upload-id-proof 204 1ms
+2026-03-17 13:04:04 [INFO]: POST /upload-id-proof 200 18ms
+2026-03-17 13:04:04 [INFO]: OPTIONS /api/auth/register 204 0ms
+2026-03-17 13:04:07 [WARN]: Slow API Request
+2026-03-17 13:04:07 [WARN]: Slow API Request
+2026-03-17 13:04:07 [INFO]: POST /register 201 2398ms
+2026-03-17 13:04:07 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:04:07 [INFO]: GET /me 401 3ms
+2026-03-17 13:04:07 [INFO]: OPTIONS /api/auth/refresh-token 204 1ms
+2026-03-17 13:04:07 [INFO]: POST /refresh-token 401 1ms
+2026-03-17 13:04:14 [INFO]: OPTIONS /api/auth/admin-login 204 1ms
+2026-03-17 13:04:15 [INFO]: POST /admin-login 200 864ms
+2026-03-17 13:04:15 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 13:04:15 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 13:04:15 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: gAOdge05NkSfKj2-AAAD)
+2026-03-17 13:04:16 [WARN]: Slow API Request
+2026-03-17 13:04:16 [WARN]: Slow API Request
+2026-03-17 13:04:16 [INFO]: GET /stats 200 1019ms
+2026-03-17 13:04:21 [WARN]: Slow API Request
+2026-03-17 13:04:21 [WARN]: Slow API Request
+2026-03-17 13:04:21 [INFO]: GET /stats 304 1347ms
+2026-03-17 13:04:21 [INFO]: OPTIONS /api/admin/pending-users 204 0ms
+2026-03-17 13:04:21 [INFO]: GET /pending-users 200 275ms
+2026-03-17 13:04:32 [INFO]: [CORS-UPLOADS] GET /uploads/1773732844938_Piyush_Anvekar_Resume__1_.pdf
+2026-03-17 13:04:32 [INFO]: [CORS-UPLOADS] Serving: 1773732844938_Piyush_Anvekar_Resume__1_.pdf (74608 bytes) with CORS
+2026-03-17 13:04:32 [INFO]: GET /uploads/1773732844938_Piyush_Anvekar_Resume__1_.pdf 200 5ms
+2026-03-17 13:04:34 [WARN]: 404 - Route not found: GET /favicon.ico
+2026-03-17 13:04:34 [INFO]: GET /favicon.ico 404 1ms
+2026-03-17 13:04:40 [INFO]: OPTIONS /api/admin/approve-user/fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 204 1ms
+2026-03-17 13:04:43 [WARN]: Slow API Request
+2026-03-17 13:04:43 [WARN]: Slow API Request
+2026-03-17 13:04:43 [INFO]: POST /approve-user/fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 200 2823ms
+2026-03-17 13:04:45 [WARN]: Slow API Request
+2026-03-17 13:04:45 [WARN]: Slow API Request
+2026-03-17 13:04:45 [INFO]: POST /approve-user/fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 200 1238ms
+2026-03-17 13:04:45 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 13:04:46 [WARN]: Slow API Request
+2026-03-17 13:04:46 [WARN]: Slow API Request
+2026-03-17 13:04:46 [INFO]: GET /stats 200 1030ms
+2026-03-17 13:04:47 [INFO]: OPTIONS /api/admin/pending-users 204 1ms
+2026-03-17 13:04:48 [INFO]: GET /stats 304 990ms
+2026-03-17 13:04:49 [WARN]: Slow API Request
+2026-03-17 13:04:49 [WARN]: Slow API Request
+2026-03-17 13:04:49 [INFO]: GET /pending-users 200 2056ms
+2026-03-17 13:04:49 [INFO]: GET /pending-users 304 253ms
+2026-03-17 13:04:49 [WARN]: Slow API Request
+2026-03-17 13:04:49 [WARN]: Slow API Request
+2026-03-17 13:04:49 [INFO]: GET /stats 304 1043ms
+2026-03-17 13:04:49 [INFO]: OPTIONS /api/admin/approved-users 204 1ms
+2026-03-17 13:04:50 [INFO]: GET /approved-users 200 251ms
+2026-03-17 13:04:53 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:04:53 [INFO]: GET /unread/count 401 1ms
+2026-03-17 13:04:53 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 13:04:53 [INFO]: OPTIONS /api/admin/user-details/fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 204 1ms
+2026-03-17 13:04:53 [INFO]: GET /unread-count 401 3ms
+2026-03-17 13:04:53 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:04:53 [INFO]: OPTIONS /api/auth/refresh-token 204 1ms
+2026-03-17 13:04:53 [INFO]: GET /user-details/fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 200 252ms
+2026-03-17 13:04:53 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:04:53 [INFO]: POST /refresh-token 401 252ms
+2026-03-17 13:04:54 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:04:54 [INFO]: POST /refresh-token 401 265ms
+2026-03-17 13:04:59 [INFO]: OPTIONS /api/auth/logout 204 1ms
+2026-03-17 13:04:59 [INFO]: POST /logout 401 1ms
+2026-03-17 13:04:59 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:05:01 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:05:01 [WARN]: Slow API Request
+2026-03-17 13:05:01 [WARN]: Slow API Request
+2026-03-17 13:05:01 [INFO]: POST /refresh-token 401 1756ms
+2026-03-17 13:05:01 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: gAOdge05NkSfKj2-AAAD)
+2026-03-17 13:05:22 [INFO]: OPTIONS /api/auth/login 204 1ms
+2026-03-17 13:05:25 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:05:25 [WARN]: Slow API Request
+2026-03-17 13:05:25 [WARN]: Slow API Request
+2026-03-17 13:05:25 [INFO]: POST /login 200 2875ms
+2026-03-17 13:05:25 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:05:25 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:05:25 [ERROR]: API Error
+2026-03-17 13:05:25 [ERROR]: API Error
+2026-03-17 13:05:25 [INFO]: GET /me 500 517ms
+2026-03-17 13:06:10 [INFO]: OPTIONS /api/auth/login 204 1ms
+2026-03-17 13:06:12 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:06:12 [WARN]: Slow API Request
+2026-03-17 13:06:12 [WARN]: Slow API Request
+2026-03-17 13:06:12 [INFO]: POST /login 200 2854ms
+2026-03-17 13:06:12 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:06:13 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:06:13 [ERROR]: API Error
+2026-03-17 13:06:13 [ERROR]: API Error
+2026-03-17 13:06:13 [INFO]: GET /me 500 499ms
+2026-03-17 13:06:18 [INFO]: OPTIONS /api/auth/login 204 0ms
+2026-03-17 13:06:20 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:06:20 [WARN]: Slow API Request
+2026-03-17 13:06:20 [WARN]: Slow API Request
+2026-03-17 13:06:20 [INFO]: POST /login 200 2461ms
+2026-03-17 13:06:20 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:06:21 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:06:21 [ERROR]: API Error
+2026-03-17 13:06:21 [ERROR]: API Error
+2026-03-17 13:06:21 [INFO]: GET /me 500 510ms
+2026-03-17 13:06:30 [INFO]: OPTIONS /api/auth/login 204 0ms
+2026-03-17 13:06:33 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:06:33 [WARN]: Slow API Request
+2026-03-17 13:06:33 [WARN]: Slow API Request
+2026-03-17 13:06:33 [INFO]: POST /login 200 3026ms
+2026-03-17 13:06:33 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 13:06:33 [ERROR]: Get user error: column "bio" does not exist
+error: column "bio" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:366:20
+2026-03-17 13:06:33 [ERROR]: API Error
+2026-03-17 13:06:33 [ERROR]: API Error
+2026-03-17 13:06:33 [INFO]: GET /me 500 512ms
+2026-03-17 13:07:17 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:07:18 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:07:18 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:07:18 [INFO]: 📍 Environment: development
+2026-03-17 13:07:18 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:07:18 [INFO]: 💾 Redis connected
+2026-03-17 13:07:18 [INFO]: 🗄️  Database connected
+2026-03-17 13:07:19 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:07:20 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:07:20 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:07:20 [INFO]: 📍 Environment: development
+2026-03-17 13:07:20 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:07:20 [INFO]: 💾 Redis connected
+2026-03-17 13:07:20 [INFO]: 🗄️  Database connected
+2026-03-17 13:07:21 [INFO]: ✅ Database connected successfully
+2026-03-17 13:07:30 [INFO]: OPTIONS /api/auth/me 204 10ms
+2026-03-17 13:07:30 [INFO]: GET /me 200 586ms
+2026-03-17 13:07:30 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:07:30 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 13:07:30 [INFO]: OPTIONS /api/notifications/unread-count 204 1ms
+2026-03-17 13:07:31 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:07:31 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: fDSUIJAfjpV-IQY1AAAB)
+2026-03-17 13:07:31 [INFO]: GET /unread/count 200 545ms
+2026-03-17 13:07:33 [ERROR]: Error fetching feed posts: column p.engagement_score does not exist
+error: column p.engagement_score does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\feed.routes.js:73:20
+2026-03-17 13:07:33 [ERROR]: API Error
+2026-03-17 13:07:33 [WARN]: Slow API Request
+2026-03-17 13:07:33 [ERROR]: API Error
+2026-03-17 13:07:33 [WARN]: Slow API Request
+2026-03-17 13:07:33 [INFO]: GET /posts 500 2645ms
+2026-03-17 13:07:33 [WARN]: Slow API Request
+2026-03-17 13:07:33 [WARN]: Slow API Request
+2026-03-17 13:07:33 [INFO]: GET /unread-count 304 2540ms
+2026-03-17 13:07:46 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 13:07:46 [INFO]: OPTIONS /api/network/all 204 1ms
+2026-03-17 13:07:48 [WARN]: Slow API Request
+2026-03-17 13:07:48 [WARN]: Slow API Request
+2026-03-17 13:07:48 [INFO]: GET /all 200 2316ms
+2026-03-17 13:07:57 [INFO]: OPTIONS /api/opportunities/list 204 0ms
+2026-03-17 13:07:57 [INFO]: GET /list 200 760ms
+2026-03-17 13:08:00 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 13:08:01 [INFO]: GET /conversations 200 511ms
+2026-03-17 13:08:15 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 13:08:17 [WARN]: Slow API Request
+2026-03-17 13:08:17 [WARN]: Slow API Request
+2026-03-17 13:08:17 [INFO]: GET /me 304 2648ms
+2026-03-17 13:08:24 [INFO]: OPTIONS /api/notifications 204 1ms
+2026-03-17 13:08:25 [ERROR]: Error fetching notifications: column n.actor_id does not exist
+error: column n.actor_id does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\notifications.routes.js:46:20
+2026-03-17 13:08:25 [ERROR]: API Error
+2026-03-17 13:08:25 [ERROR]: API Error
+2026-03-17 13:08:25 [INFO]: GET / 500 527ms
+2026-03-17 13:08:25 [INFO]: OPTIONS /api/notifications/read-all 204 0ms
+2026-03-17 13:08:27 [WARN]: Slow API Request
+2026-03-17 13:08:27 [WARN]: Slow API Request
+2026-03-17 13:08:27 [INFO]: PUT /read-all 200 2295ms
+2026-03-17 13:08:32 [INFO]: OPTIONS /api/messages/conversations 204 0ms
+2026-03-17 13:08:33 [INFO]: GET /conversations 304 687ms
+2026-03-17 13:08:35 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:08:35 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:08:35 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:08:35 [INFO]: 📍 Environment: development
+2026-03-17 13:08:35 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:08:35 [INFO]: 💾 Redis connected
+2026-03-17 13:08:35 [INFO]: 🗄️  Database connected
+2026-03-17 13:08:35 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:08:35 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: rqLngWy83XGWRJDCAAAB)
+2026-03-17 13:08:37 [INFO]: ✅ Database connected successfully
+2026-03-17 13:08:38 [INFO]: OPTIONS /api/notifications 204 5ms
+2026-03-17 13:08:39 [ERROR]: Error fetching notifications: column n.actor_id does not exist
+error: column n.actor_id does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\notifications.routes.js:46:20
+2026-03-17 13:08:39 [ERROR]: API Error
+2026-03-17 13:08:39 [ERROR]: API Error
+2026-03-17 13:08:39 [INFO]: GET / 500 599ms
+2026-03-17 13:08:39 [INFO]: OPTIONS /api/notifications/read-all 204 0ms
+2026-03-17 13:08:42 [WARN]: Slow API Request
+2026-03-17 13:08:42 [WARN]: Slow API Request
+2026-03-17 13:08:42 [INFO]: PUT /read-all 200 3657ms
+2026-03-17 13:08:45 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:08:45 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:08:45 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:08:45 [INFO]: 📍 Environment: development
+2026-03-17 13:08:45 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:08:45 [INFO]: 💾 Redis connected
+2026-03-17 13:08:45 [INFO]: 🗄️  Database connected
+2026-03-17 13:08:46 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:08:46 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: hZfigNxiMB7buNT1AAAB)
+2026-03-17 13:08:47 [INFO]: ✅ Database connected successfully
+2026-03-17 13:09:00 [INFO]: OPTIONS /api/auth/me 204 4ms
+2026-03-17 13:09:03 [WARN]: Slow API Request
+2026-03-17 13:09:03 [WARN]: Slow API Request
+2026-03-17 13:09:03 [INFO]: GET /me 304 2921ms
+2026-03-17 13:09:06 [INFO]: OPTIONS /api/notifications 204 2ms
+2026-03-17 13:09:07 [INFO]: GET / 200 828ms
+2026-03-17 13:09:07 [INFO]: OPTIONS /api/notifications/read-all 204 0ms
+2026-03-17 13:09:08 [INFO]: PUT /read-all 200 527ms
+2026-03-17 13:09:09 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 13:09:10 [INFO]: GET /conversations 304 605ms
+2026-03-17 13:09:12 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 joined room: feed
+2026-03-17 13:09:12 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 13:09:13 [INFO]: GET /posts 200 559ms
+2026-03-17 13:10:16 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 13:10:17 [INFO]: OPTIONS /api/notifications 204 1ms
+2026-03-17 13:10:20 [WARN]: Slow API Request
+2026-03-17 13:10:20 [WARN]: Slow API Request
+2026-03-17 13:10:20 [INFO]: GET / 304 2868ms
+2026-03-17 13:10:20 [INFO]: OPTIONS /api/notifications/read-all 204 0ms
+2026-03-17 13:10:20 [INFO]: PUT /read-all 200 519ms
+2026-03-17 13:10:22 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 13:10:23 [INFO]: GET /conversations 304 534ms
+2026-03-17 13:10:25 [INFO]: OPTIONS /api/opportunities/list 204 1ms
+2026-03-17 13:10:26 [INFO]: GET /list 304 799ms
+2026-03-17 13:13:29 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: hZfigNxiMB7buNT1AAAB)
+2026-03-17 13:13:30 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:13:36 [WARN]: Slow API Request
+2026-03-17 13:13:36 [WARN]: Slow API Request
+2026-03-17 13:13:36 [INFO]: GET /me 304 5599ms
+2026-03-17 13:13:36 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:13:36 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 13:13:36 [INFO]: OPTIONS /api/opportunities/list 204 0ms
+2026-03-17 13:13:36 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:13:36 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: IQKFrPi0gd9sRwU-AAAD)
+2026-03-17 13:13:37 [INFO]: GET /unread/count 304 610ms
+2026-03-17 13:13:39 [WARN]: Slow API Request
+2026-03-17 13:13:39 [WARN]: Slow API Request
+2026-03-17 13:13:39 [INFO]: GET /unread-count 304 2693ms
+2026-03-17 13:13:39 [WARN]: Slow API Request
+2026-03-17 13:13:39 [WARN]: Slow API Request
+2026-03-17 13:13:39 [INFO]: GET /list 304 2869ms
+2026-03-17 13:13:42 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 joined room: feed
+2026-03-17 13:13:42 [INFO]: OPTIONS /api/feed/posts 204 4ms
+2026-03-17 13:13:42 [INFO]: GET /posts 304 638ms
+2026-03-17 13:13:51 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 13:13:51 [INFO]: OPTIONS /api/messages/conversations 204 0ms
+2026-03-17 13:13:52 [INFO]: GET /conversations 304 517ms
+2026-03-17 13:13:55 [INFO]: OPTIONS /api/notifications 204 0ms
+2026-03-17 13:13:55 [INFO]: GET / 304 584ms
+2026-03-17 13:13:55 [INFO]: OPTIONS /api/notifications/read-all 204 0ms
+2026-03-17 13:13:56 [INFO]: PUT /read-all 200 499ms
+2026-03-17 13:13:58 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:13:59 [INFO]: GET /me 304 525ms
+2026-03-17 13:14:01 [INFO]: OPTIONS /api/opportunities/list 204 1ms
+2026-03-17 13:14:01 [INFO]: GET /list 304 743ms
+2026-03-17 13:14:15 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: IQKFrPi0gd9sRwU-AAAD)
+2026-03-17 13:14:16 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:14:18 [WARN]: Slow API Request
+2026-03-17 13:14:18 [WARN]: Slow API Request
+2026-03-17 13:14:18 [INFO]: GET /me 304 2169ms
+2026-03-17 13:14:18 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:14:18 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 13:14:18 [INFO]: OPTIONS /api/opportunities/list 204 1ms
+2026-03-17 13:14:18 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:14:18 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: -XsviK1ib-pYK1xJAAAF)
+2026-03-17 13:14:19 [WARN]: Slow API Request
+2026-03-17 13:14:19 [WARN]: Slow API Request
+2026-03-17 13:14:19 [INFO]: GET /unread/count 304 1608ms
+2026-03-17 13:14:22 [WARN]: Slow API Request
+2026-03-17 13:14:22 [WARN]: Slow API Request
+2026-03-17 13:14:22 [INFO]: GET /list 304 3914ms
+2026-03-17 13:14:22 [WARN]: Slow API Request
+2026-03-17 13:14:22 [WARN]: Slow API Request
+2026-03-17 13:14:22 [INFO]: GET /unread-count 304 4193ms
+2026-03-17 13:15:03 [INFO]: OPTIONS /api/network/all 204 0ms
+2026-03-17 13:15:05 [WARN]: Slow API Request
+2026-03-17 13:15:05 [WARN]: Slow API Request
+2026-03-17 13:15:05 [INFO]: GET /all 304 2108ms
+2026-03-17 13:15:09 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 13:15:09 [INFO]: GET /conversations 304 540ms
+2026-03-17 13:15:22 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 13:15:23 [WARN]: Slow API Request
+2026-03-17 13:15:23 [WARN]: Slow API Request
+2026-03-17 13:15:23 [INFO]: GET /me 304 1647ms
+2026-03-17 13:15:50 [INFO]: OPTIONS /api/opportunities/list 204 1ms
+2026-03-17 13:15:52 [WARN]: Slow API Request
+2026-03-17 13:15:52 [WARN]: Slow API Request
+2026-03-17 13:15:52 [INFO]: GET /list 304 2035ms
+2026-03-17 13:16:02 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: -XsviK1ib-pYK1xJAAAF)
+2026-03-17 13:16:03 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 13:16:05 [WARN]: Slow API Request
+2026-03-17 13:16:05 [WARN]: Slow API Request
+2026-03-17 13:16:05 [INFO]: GET /me 304 1649ms
+2026-03-17 13:16:05 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:16:05 [INFO]: OPTIONS /api/notifications/unread-count 204 2ms
+2026-03-17 13:16:05 [INFO]: OPTIONS /api/opportunities/list 204 1ms
+2026-03-17 13:16:05 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:16:05 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: fSuaPdJe9DIyfCeyAAAH)
+2026-03-17 13:16:06 [INFO]: GET /unread/count 304 440ms
+2026-03-17 13:16:07 [WARN]: Slow API Request
+2026-03-17 13:16:07 [WARN]: Slow API Request
+2026-03-17 13:16:07 [INFO]: GET /unread-count 304 1420ms
+2026-03-17 13:16:07 [WARN]: Slow API Request
+2026-03-17 13:16:07 [WARN]: Slow API Request
+2026-03-17 13:16:07 [INFO]: GET /list 304 1935ms
+2026-03-17 13:16:20 [INFO]: OPTIONS /api/network/all 204 0ms
+2026-03-17 13:16:22 [WARN]: Slow API Request
+2026-03-17 13:16:22 [WARN]: Slow API Request
+2026-03-17 13:16:22 [INFO]: GET /all 304 2209ms
+2026-03-17 13:17:38 [INFO]: OPTIONS /api/opportunities/list 204 2ms
+2026-03-17 13:17:40 [WARN]: Slow API Request
+2026-03-17 13:17:40 [WARN]: Slow API Request
+2026-03-17 13:17:40 [INFO]: GET /list 304 2086ms
+2026-03-17 13:17:52 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: fSuaPdJe9DIyfCeyAAAH)
+2026-03-17 13:17:53 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:17:55 [WARN]: Slow API Request
+2026-03-17 13:17:55 [WARN]: Slow API Request
+2026-03-17 13:17:55 [INFO]: GET /me 304 1808ms
+2026-03-17 13:17:55 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:17:55 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 13:17:55 [INFO]: OPTIONS /api/opportunities/list 204 1ms
+2026-03-17 13:17:55 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:17:55 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: xV7P3NQq8fiedt8ZAAAJ)
+2026-03-17 13:17:55 [INFO]: GET /unread/count 304 448ms
+2026-03-17 13:17:57 [WARN]: Slow API Request
+2026-03-17 13:17:57 [WARN]: Slow API Request
+2026-03-17 13:17:57 [INFO]: GET /unread-count 304 1486ms
+2026-03-17 13:17:57 [WARN]: Slow API Request
+2026-03-17 13:17:57 [WARN]: Slow API Request
+2026-03-17 13:17:57 [INFO]: GET /list 304 1890ms
+2026-03-17 13:18:05 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 joined room: feed
+2026-03-17 13:18:05 [INFO]: OPTIONS /api/feed/posts 204 0ms
+2026-03-17 13:18:06 [INFO]: GET /posts 304 489ms
+2026-03-17 13:18:13 [INFO]: OPTIONS /api/auth/logout 204 0ms
+2026-03-17 13:18:13 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:18:13 [ERROR]: API Error
+2026-03-17 13:18:13 [ERROR]: API Error
+2026-03-17 13:18:13 [INFO]: POST /logout 500 440ms
+2026-03-17 13:18:13 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: xV7P3NQq8fiedt8ZAAAJ)
+2026-03-17 13:18:19 [INFO]: OPTIONS /api/auth/admin-login 204 0ms
+2026-03-17 13:18:21 [WARN]: Slow API Request
+2026-03-17 13:18:21 [WARN]: Slow API Request
+2026-03-17 13:18:21 [INFO]: POST /admin-login 200 2044ms
+2026-03-17 13:18:21 [INFO]: OPTIONS /api/admin/stats 204 1ms
+2026-03-17 13:18:21 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 13:18:21 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: T00zO7r_rfDcOrpxAAAL)
+2026-03-17 13:18:22 [INFO]: GET /stats 304 800ms
+2026-03-17 13:18:33 [INFO]: OPTIONS /api/admin/stats 204 1ms
+2026-03-17 13:18:35 [WARN]: Slow API Request
+2026-03-17 13:18:35 [WARN]: Slow API Request
+2026-03-17 13:18:35 [INFO]: GET /stats 304 2626ms
+2026-03-17 13:18:36 [INFO]: OPTIONS /api/admin/pending-users 204 0ms
+2026-03-17 13:18:36 [INFO]: OPTIONS /api/admin/report-filters 204 1ms
+2026-03-17 13:18:36 [INFO]: GET /stats 304 996ms
+2026-03-17 13:18:37 [INFO]: OPTIONS /api/admin/approved-users 204 0ms
+2026-03-17 13:18:37 [WARN]: Slow API Request
+2026-03-17 13:18:37 [WARN]: Slow API Request
+2026-03-17 13:18:37 [INFO]: GET /pending-users 304 1742ms
+2026-03-17 13:18:37 [WARN]: Slow API Request
+2026-03-17 13:18:37 [WARN]: Slow API Request
+2026-03-17 13:18:37 [INFO]: GET /stats 304 1065ms
+2026-03-17 13:18:38 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 13:18:38 [WARN]: Slow API Request
+2026-03-17 13:18:38 [WARN]: Slow API Request
+2026-03-17 13:18:38 [INFO]: GET /approved-users 200 1805ms
+2026-03-17 13:18:39 [WARN]: Slow API Request
+2026-03-17 13:18:39 [WARN]: Slow API Request
+2026-03-17 13:18:39 [INFO]: GET /stats 304 1004ms
+2026-03-17 13:18:39 [WARN]: Slow API Request
+2026-03-17 13:18:39 [WARN]: Slow API Request
+2026-03-17 13:18:39 [INFO]: GET /report-filters 200 3160ms
+2026-03-17 13:19:05 [INFO]: OPTIONS /api/admin/broadcast 204 1ms
+2026-03-17 13:19:07 [ERROR]: API Error
+2026-03-17 13:19:07 [WARN]: Slow API Request
+2026-03-17 13:19:07 [ERROR]: API Error
+2026-03-17 13:19:07 [WARN]: Slow API Request
+2026-03-17 13:19:07 [INFO]: POST /broadcast 500 2424ms
+2026-03-17 13:19:10 [ERROR]: API Error
+2026-03-17 13:19:10 [WARN]: Slow API Request
+2026-03-17 13:19:10 [ERROR]: API Error
+2026-03-17 13:19:10 [WARN]: Slow API Request
+2026-03-17 13:19:10 [INFO]: POST /broadcast 500 2936ms
+2026-03-17 13:19:13 [INFO]: OPTIONS /api/auth/logout 204 1ms
+2026-03-17 13:19:13 [INFO]: POST /logout 401 1ms
+2026-03-17 13:19:13 [INFO]: OPTIONS /api/messages/unread/count 204 2ms
+2026-03-17 13:19:13 [INFO]: GET /unread/count 401 3ms
+2026-03-17 13:19:13 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 13:19:13 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:19:13 [INFO]: GET /posts 401 2ms
+2026-03-17 13:19:13 [INFO]: OPTIONS /api/notifications/unread-count 204 2ms
+2026-03-17 13:19:13 [INFO]: User a51a080a-498f-4e91-a2cc-0d4a711d337b joined room: feed
+2026-03-17 13:19:13 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:19:13 [INFO]: POST /refresh-token 401 196ms
+2026-03-17 13:19:13 [INFO]: GET /unread-count 401 1ms
+2026-03-17 13:19:13 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: T00zO7r_rfDcOrpxAAAL)
+2026-03-17 13:19:13 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:19:13 [INFO]: POST /refresh-token 401 254ms
+2026-03-17 13:19:15 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:19:15 [WARN]: Slow API Request
+2026-03-17 13:19:15 [WARN]: Slow API Request
+2026-03-17 13:19:15 [INFO]: POST /refresh-token 401 1807ms
+2026-03-17 13:19:18 [INFO]: OPTIONS /api/auth/login 204 0ms
+2026-03-17 13:19:20 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:19:20 [WARN]: Slow API Request
+2026-03-17 13:19:20 [WARN]: Slow API Request
+2026-03-17 13:19:20 [INFO]: POST /login 200 2204ms
+2026-03-17 13:19:20 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:19:21 [INFO]: GET /me 304 423ms
+2026-03-17 13:19:21 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:19:21 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 13:19:21 [INFO]: OPTIONS /api/feed/posts 204 0ms
+2026-03-17 13:19:21 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:19:21 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: j2-TbhRMFjUlDuRIAAAN)
+2026-03-17 13:19:21 [INFO]: GET /unread/count 304 402ms
+2026-03-17 13:19:22 [WARN]: Slow API Request
+2026-03-17 13:19:22 [WARN]: Slow API Request
+2026-03-17 13:19:22 [INFO]: GET /unread-count 304 1624ms
+2026-03-17 13:19:23 [WARN]: Slow API Request
+2026-03-17 13:19:23 [WARN]: Slow API Request
+2026-03-17 13:19:23 [INFO]: GET /posts 304 1986ms
+2026-03-17 13:19:30 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 13:19:30 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 13:19:31 [INFO]: GET /conversations 304 497ms
+2026-03-17 13:19:43 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: j2-TbhRMFjUlDuRIAAAN)
+2026-03-17 13:19:44 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 13:19:46 [WARN]: Slow API Request
+2026-03-17 13:19:46 [WARN]: Slow API Request
+2026-03-17 13:19:46 [INFO]: GET /me 304 2315ms
+2026-03-17 13:19:46 [INFO]: OPTIONS /api/messages/unread/count 204 1ms
+2026-03-17 13:19:46 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 13:19:46 [INFO]: OPTIONS /api/messages/conversations 204 0ms
+2026-03-17 13:19:47 [INFO]: GET /unread/count 304 255ms
+2026-03-17 13:19:47 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:19:47 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: L_TgrlKTohoZfm2wAAAP)
+2026-03-17 13:19:47 [INFO]: GET /unread-count 304 259ms
+2026-03-17 13:19:49 [WARN]: Slow API Request
+2026-03-17 13:19:49 [WARN]: Slow API Request
+2026-03-17 13:19:49 [INFO]: GET /conversations 304 2128ms
+2026-03-17 13:19:54 [INFO]: OPTIONS /api/auth/logout 204 0ms
+2026-03-17 13:19:56 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:19:56 [WARN]: Slow API Request
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:19:56 [WARN]: Slow API Request
+2026-03-17 13:19:56 [INFO]: POST /logout 500 1553ms
+2026-03-17 13:19:56 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: L_TgrlKTohoZfm2wAAAP)
+2026-03-17 13:19:56 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:19:56 [ERROR]: API Error
+2026-03-17 13:19:56 [INFO]: POST /logout 500 528ms
+2026-03-17 13:20:09 [INFO]: OPTIONS /api/auth/admin-login 204 1ms
+2026-03-17 13:20:12 [WARN]: Slow API Request
+2026-03-17 13:20:12 [WARN]: Slow API Request
+2026-03-17 13:20:12 [INFO]: POST /admin-login 200 3280ms
+2026-03-17 13:20:12 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 13:20:12 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 13:20:12 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: G2dmd262NBvhWFvOAAAR)
+2026-03-17 13:20:14 [WARN]: Slow API Request
+2026-03-17 13:20:14 [WARN]: Slow API Request
+2026-03-17 13:20:14 [INFO]: GET /stats 304 1486ms
+2026-03-17 13:20:16 [INFO]: OPTIONS /api/admin/report-filters 204 1ms
+2026-03-17 13:20:17 [WARN]: Slow API Request
+2026-03-17 13:20:17 [WARN]: Slow API Request
+2026-03-17 13:20:17 [INFO]: GET /stats 304 1333ms
+2026-03-17 13:20:19 [WARN]: Slow API Request
+2026-03-17 13:20:19 [WARN]: Slow API Request
+2026-03-17 13:20:19 [INFO]: GET /report-filters 304 2996ms
+2026-03-17 13:20:20 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 13:20:21 [INFO]: GET /stats 304 880ms
+2026-03-17 13:20:30 [INFO]: OPTIONS /api/admin/broadcast 204 0ms
+2026-03-17 13:20:31 [ERROR]: API Error
+2026-03-17 13:20:31 [WARN]: Slow API Request
+2026-03-17 13:20:31 [ERROR]: API Error
+2026-03-17 13:20:31 [WARN]: Slow API Request
+2026-03-17 13:20:31 [INFO]: POST /broadcast 500 1292ms
+2026-03-17 13:21:46 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:21:46 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:21:46 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:21:46 [INFO]: 📍 Environment: development
+2026-03-17 13:21:46 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:21:46 [INFO]: 💾 Redis connected
+2026-03-17 13:21:46 [INFO]: 🗄️  Database connected
+2026-03-17 13:21:47 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 13:21:47 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: JGBKc6eTUtj-B3gmAAAB)
+2026-03-17 13:21:47 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:21:48 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:21:48 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:21:48 [INFO]: 📍 Environment: development
+2026-03-17 13:21:48 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:21:48 [INFO]: 💾 Redis connected
+2026-03-17 13:21:48 [INFO]: 🗄️  Database connected
+2026-03-17 13:21:49 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 13:21:49 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: 5w41MYpW4MOUCxvpAAAB)
+2026-03-17 13:21:50 [INFO]: ✅ Database connected successfully
+2026-03-17 13:23:04 [INFO]: User a51a080a-498f-4e91-a2cc-0d4a711d337b joined room: feed
+2026-03-17 13:23:04 [INFO]: OPTIONS /api/auth/logout 204 7ms
+2026-03-17 13:23:04 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:23:04 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 13:23:04 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 13:23:04 [INFO]: POST /logout 401 51ms
+2026-03-17 13:23:04 [INFO]: GET /unread/count 401 2ms
+2026-03-17 13:23:04 [INFO]: GET /unread-count 401 1ms
+2026-03-17 13:23:04 [INFO]: GET /posts 401 4ms
+2026-03-17 13:23:04 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:23:04 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:23:04 [INFO]: OPTIONS /api/auth/refresh-token 204 1ms
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [INFO]: POST /refresh-token 401 1651ms
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [INFO]: POST /refresh-token 401 1761ms
+2026-03-17 13:23:06 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: 5w41MYpW4MOUCxvpAAAB)
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [INFO]: POST /refresh-token 401 1783ms
+2026-03-17 13:23:06 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [WARN]: Slow API Request
+2026-03-17 13:23:06 [INFO]: POST /refresh-token 401 1861ms
+2026-03-17 13:23:13 [INFO]: OPTIONS /api/auth/login 204 3ms
+2026-03-17 13:23:17 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:23:17 [WARN]: Slow API Request
+2026-03-17 13:23:17 [WARN]: Slow API Request
+2026-03-17 13:23:17 [INFO]: POST /login 200 3438ms
+2026-03-17 13:23:17 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 13:23:17 [INFO]: GET /me 304 534ms
+2026-03-17 13:23:17 [INFO]: OPTIONS /api/messages/unread/count 204 1ms
+2026-03-17 13:23:17 [INFO]: OPTIONS /api/notifications/unread-count 204 1ms
+2026-03-17 13:23:17 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 13:23:17 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:23:17 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: Fn7wpmGjdLCKmUSNAAAD)
+2026-03-17 13:23:18 [INFO]: GET /unread/count 304 579ms
+2026-03-17 13:23:20 [WARN]: Slow API Request
+2026-03-17 13:23:20 [WARN]: Slow API Request
+2026-03-17 13:23:20 [INFO]: GET /unread-count 304 2349ms
+2026-03-17 13:23:20 [WARN]: Slow API Request
+2026-03-17 13:23:20 [WARN]: Slow API Request
+2026-03-17 13:23:20 [INFO]: GET /posts 304 2321ms
+2026-03-17 13:23:24 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 13:23:24 [INFO]: OPTIONS /api/messages/conversations 204 2ms
+2026-03-17 13:23:25 [INFO]: GET /conversations 304 666ms
+2026-03-17 13:23:28 [INFO]: OPTIONS /api/auth/logout 204 0ms
+2026-03-17 13:23:29 [ERROR]: Logout error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\routes\auth.routes.js:345:7
+2026-03-17 13:23:29 [ERROR]: API Error
+2026-03-17 13:23:29 [ERROR]: API Error
+2026-03-17 13:23:29 [INFO]: POST /logout 500 509ms
+2026-03-17 13:23:29 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: Fn7wpmGjdLCKmUSNAAAD)
+2026-03-17 13:23:43 [INFO]: OPTIONS /api/auth/admin-login 204 1ms
+2026-03-17 13:23:46 [WARN]: Slow API Request
+2026-03-17 13:23:46 [WARN]: Slow API Request
+2026-03-17 13:23:46 [INFO]: POST /admin-login 200 2598ms
+2026-03-17 13:23:46 [INFO]: OPTIONS /api/admin/stats 204 1ms
+2026-03-17 13:23:46 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 13:23:46 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: RZFTg3zX6-Zs4WUYAAAF)
+2026-03-17 13:23:47 [WARN]: Slow API Request
+2026-03-17 13:23:47 [WARN]: Slow API Request
+2026-03-17 13:23:47 [INFO]: GET /stats 200 1023ms
+2026-03-17 13:23:51 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 13:23:52 [WARN]: Slow API Request
+2026-03-17 13:23:52 [WARN]: Slow API Request
+2026-03-17 13:23:52 [INFO]: GET /stats 304 1013ms
+2026-03-17 13:23:55 [WARN]: Slow API Request
+2026-03-17 13:23:56 [WARN]: Slow API Request
+2026-03-17 13:23:56 [INFO]: GET /stats 304 1044ms
+2026-03-17 13:23:56 [INFO]: OPTIONS /api/admin/approved-users 204 1ms
+2026-03-17 13:23:56 [INFO]: GET /approved-users 200 261ms
+2026-03-17 13:24:02 [INFO]: OPTIONS /api/admin/stats 204 1ms
+2026-03-17 13:24:03 [INFO]: GET /stats 304 974ms
+2026-03-17 13:24:15 [INFO]: OPTIONS /api/admin/broadcast 204 0ms
+2026-03-17 13:24:20 [WARN]: Slow API Request
+2026-03-17 13:24:20 [WARN]: Slow API Request
+2026-03-17 13:24:20 [INFO]: POST /broadcast 200 4939ms
+2026-03-17 13:24:26 [INFO]: User a51a080a-498f-4e91-a2cc-0d4a711d337b joined room: feed
+2026-03-17 13:24:27 [INFO]: OPTIONS /api/auth/logout 204 0ms
+2026-03-17 13:24:27 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:24:27 [INFO]: OPTIONS /api/notifications/unread-count 204 1ms
+2026-03-17 13:24:27 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 13:24:27 [INFO]: POST /logout 401 2ms
+2026-03-17 13:24:27 [INFO]: GET /unread/count 401 3ms
+2026-03-17 13:24:27 [INFO]: GET /unread-count 401 1ms
+2026-03-17 13:24:27 [INFO]: GET /posts 401 2ms
+2026-03-17 13:24:27 [INFO]: OPTIONS /api/auth/refresh-token 204 1ms
+2026-03-17 13:24:27 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:24:27 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 13:24:27 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:24:27 [INFO]: POST /refresh-token 401 312ms
+2026-03-17 13:24:29 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:24:29 [WARN]: Slow API Request
+2026-03-17 13:24:29 [WARN]: Slow API Request
+2026-03-17 13:24:29 [INFO]: POST /refresh-token 401 1969ms
+2026-03-17 13:24:29 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:24:29 [WARN]: Slow API Request
+2026-03-17 13:24:29 [WARN]: Slow API Request
+2026-03-17 13:24:29 [INFO]: POST /refresh-token 401 2195ms
+2026-03-17 13:24:29 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: RZFTg3zX6-Zs4WUYAAAF)
+2026-03-17 13:24:30 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:24:30 [WARN]: Slow API Request
+2026-03-17 13:24:30 [WARN]: Slow API Request
+2026-03-17 13:24:30 [INFO]: POST /refresh-token 401 2774ms
+2026-03-17 13:24:35 [INFO]: OPTIONS /api/auth/login 204 0ms
+2026-03-17 13:24:40 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:24:40 [WARN]: Slow API Request
+2026-03-17 13:24:40 [WARN]: Slow API Request
+2026-03-17 13:24:40 [INFO]: POST /login 200 4580ms
+2026-03-17 13:24:40 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 13:24:41 [WARN]: Slow API Request
+2026-03-17 13:24:41 [WARN]: Slow API Request
+2026-03-17 13:24:41 [INFO]: GET /me 304 1127ms
+2026-03-17 13:24:41 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 13:24:41 [INFO]: OPTIONS /api/notifications/unread-count 204 1ms
+2026-03-17 13:24:41 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 13:24:41 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:24:41 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: GzuWZEqwFhRQo5ZmAAAH)
+2026-03-17 13:24:42 [INFO]: GET /unread/count 200 795ms
+2026-03-17 13:24:45 [WARN]: Slow API Request
+2026-03-17 13:24:45 [WARN]: Slow API Request
+2026-03-17 13:24:45 [INFO]: GET /posts 304 4524ms
+2026-03-17 13:24:46 [WARN]: Slow API Request
+2026-03-17 13:24:46 [WARN]: Slow API Request
+2026-03-17 13:24:46 [INFO]: GET /unread-count 304 5030ms
+2026-03-17 13:24:49 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 13:24:49 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 13:24:49 [INFO]: GET /conversations 200 516ms
+2026-03-17 13:26:58 [WARN]: Slow API Request
+2026-03-17 13:26:58 [WARN]: Slow API Request
+2026-03-17 13:27:24 [WARN]: Slow API Request
+2026-03-17 13:27:24 [WARN]: Slow API Request
+2026-03-17 13:27:54 [WARN]: Slow API Request
+2026-03-17 13:27:54 [WARN]: Slow API Request
+2026-03-17 13:27:54 [INFO]: GET /api/health 200 3402ms
+2026-03-17 13:28:08 [WARN]: Slow API Request
+2026-03-17 13:28:08 [WARN]: Slow API Request
+2026-03-17 13:28:08 [INFO]: POST /login 401 1758ms
+2026-03-17 13:28:10 [INFO]: POST /admin-login 200 699ms
+2026-03-17 13:29:21 [WARN]: Slow API Request
+2026-03-17 13:29:21 [WARN]: Slow API Request
+2026-03-17 13:29:21 [INFO]: POST /login 401 3277ms
+2026-03-17 13:31:08 [WARN]: Slow API Request
+2026-03-17 13:31:08 [WARN]: Slow API Request
+2026-03-17 13:31:08 [INFO]: POST /admin-login 200 2952ms
+2026-03-17 13:31:09 [WARN]: Slow API Request
+2026-03-17 13:31:09 [WARN]: Slow API Request
+2026-03-17 13:31:09 [INFO]: GET /stats 200 1033ms
+2026-03-17 13:31:11 [WARN]: Slow API Request
+2026-03-17 13:31:11 [WARN]: Slow API Request
+2026-03-17 13:31:11 [INFO]: POST /broadcast 200 1804ms
+2026-03-17 13:31:11 [INFO]: GET /broadcasts 200 260ms
+2026-03-17 13:31:56 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: GzuWZEqwFhRQo5ZmAAAH)
+2026-03-17 13:35:27 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:35:28 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:35:28 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:35:28 [INFO]: 📍 Environment: development
+2026-03-17 13:35:28 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:35:28 [INFO]: 💾 Redis connected
+2026-03-17 13:35:28 [INFO]: 🗄️  Database connected
+2026-03-17 13:35:30 [INFO]: ✅ Database connected successfully
+2026-03-17 13:35:40 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:35:40 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:35:40 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:35:40 [INFO]: 📍 Environment: development
+2026-03-17 13:35:40 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:35:40 [INFO]: 💾 Redis connected
+2026-03-17 13:35:40 [INFO]: 🗄️  Database connected
+2026-03-17 13:35:42 [INFO]: ✅ Database connected successfully
+2026-03-17 13:35:43 [WARN]: Slow API Request
+2026-03-17 13:35:43 [WARN]: Slow API Request
+2026-03-17 13:35:43 [INFO]: GET /api/health 200 2062ms
+2026-03-17 13:35:46 [INFO]: User logged in: 3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628
+2026-03-17 13:35:46 [INFO]: POST /login 200 980ms
+2026-03-17 13:35:47 [INFO]: GET /me 200 601ms
+2026-03-17 13:35:47 [INFO]: GET /posts 200 556ms
+2026-03-17 13:35:48 [INFO]: GET /unread/count 200 679ms
+2026-03-17 13:35:49 [INFO]: GET /unread-count 200 537ms
+2026-03-17 13:35:49 [ERROR]: Refresh token authentication error: column "revoked_at" does not exist
+error: column "revoked_at" does not exist
+    at C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\node_modules\pg-pool\index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async authenticateRefreshToken (C:\Users\HP\Downloads\Batu-alumini-connect-master\backend\middleware\auth.js:86:24)
+2026-03-17 13:35:49 [INFO]: POST /refresh-token 401 308ms
+2026-03-17 13:36:33 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:36:33 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:36:33 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:36:33 [INFO]: 📍 Environment: development
+2026-03-17 13:36:33 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:36:33 [INFO]: 💾 Redis connected
+2026-03-17 13:36:33 [INFO]: 🗄️  Database connected
+2026-03-17 13:36:35 [INFO]: ✅ Socket.IO initialized
+2026-03-17 13:36:36 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 13:36:36 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 13:36:36 [INFO]: 📍 Environment: development
+2026-03-17 13:36:36 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 13:36:36 [INFO]: 💾 Redis connected
+2026-03-17 13:36:36 [INFO]: 🗄️  Database connected
+2026-03-17 13:36:39 [INFO]: ✅ Database connected successfully
+2026-03-17 13:38:07 [WARN]: Slow API Request
+2026-03-17 13:38:07 [WARN]: Slow API Request
+2026-03-17 13:38:07 [INFO]: GET /api/health 200 1826ms
+2026-03-17 13:38:11 [INFO]: User logged in: 3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628
+2026-03-17 13:38:11 [INFO]: POST /login 200 747ms
+2026-03-17 13:38:11 [INFO]: GET /me 200 421ms
+2026-03-17 13:38:12 [INFO]: GET /posts 200 539ms
+2026-03-17 13:38:12 [INFO]: GET /unread/count 200 504ms
+2026-03-17 13:38:12 [INFO]: GET /unread-count 200 282ms
+2026-03-17 13:38:13 [INFO]: Token refreshed for user: 3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628
+2026-03-17 13:38:13 [INFO]: POST /refresh-token 200 895ms
+2026-03-17 13:38:14 [INFO]: User logged out: 3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628
+2026-03-17 13:38:14 [INFO]: POST /logout 200 438ms
+2026-03-17 13:38:15 [INFO]: POST /admin-login 200 734ms
+2026-03-17 13:38:15 [INFO]: GET /stats 200 964ms
+2026-03-17 13:38:18 [WARN]: Slow API Request
+2026-03-17 13:38:18 [WARN]: Slow API Request
+2026-03-17 13:38:18 [INFO]: POST /broadcast 200 2115ms
+2026-03-17 13:38:18 [INFO]: GET /broadcasts 200 290ms

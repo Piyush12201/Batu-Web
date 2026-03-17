@@ -33,6 +33,13 @@ const MessagesPage: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [newMessage, setNewMessage] = useState('');
   const [loading, setLoading] = useState(true);
+  const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const onResize = () => setIsMobileView(window.innerWidth <= 768);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
 
   useEffect(() => {
     fetchConversations();
@@ -171,7 +178,7 @@ const MessagesPage: React.FC = () => {
 
   return (
     <div className="messages-page">
-      <div className="messages-sidebar">
+      <div className={`messages-sidebar ${isMobileView && selectedConversation ? 'messages-sidebar-hidden' : ''}`}>
         <h2>Messages</h2>
         <div className="conversations-list">
           {loading ? (
@@ -212,10 +219,19 @@ const MessagesPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="messages-main">
+      <div className={`messages-main ${isMobileView && !selectedConversation ? 'messages-main-hidden' : ''}`}>
         {selectedConversation ? (
           <>
             <div className="messages-header">
+              {isMobileView && (
+                <button
+                  type="button"
+                  className="messages-back-button"
+                  onClick={() => setSelectedConversation(null)}
+                >
+                  Back
+                </button>
+              )}
               <h3>
                 {conversations.find((c) => c.id === selectedConversation)?.full_name || 'Conversation'}
               </h3>
