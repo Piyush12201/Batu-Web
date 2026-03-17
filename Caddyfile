@@ -1,0 +1,28 @@
+# Replace your.domain.com with your actual domain (or use an IP address).
+# Caddy automatically provisions a TLS certificate when a real domain is used.
+# For a quick IP-only test, replace the domain with ":80" to serve plain HTTP.
+
+your.domain.com {
+    # API routes → backend
+    handle /api/* {
+        reverse_proxy localhost:5000
+    }
+
+    # WebSocket (Socket.IO) → backend
+    handle /socket.io/* {
+        reverse_proxy localhost:5000 {
+            header_up Host {host}
+            transport http {
+                # keep the connection alive for long-lived WS connections
+                dial_timeout 5s
+                response_header_timeout 0
+                read_buffer_size 4096
+            }
+        }
+    }
+
+    # Uploaded files → backend
+    handle /uploads/* {
+        reverse_proxy localhost:5000
+    }
+}
