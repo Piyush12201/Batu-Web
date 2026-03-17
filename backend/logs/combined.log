@@ -12075,3 +12075,205 @@ error: column "revoked_at" does not exist
 2026-03-17 18:30:06 [INFO]: 💾 Redis connected
 2026-03-17 18:30:06 [INFO]: 🗄️  Database connected
 2026-03-17 18:30:09 [INFO]: ✅ Database connected successfully
+2026-03-17 18:31:15 [INFO]: ✅ Socket.IO initialized
+2026-03-17 18:31:16 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 18:31:16 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 18:31:16 [INFO]: 📍 Environment: development
+2026-03-17 18:31:16 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 18:31:16 [INFO]: 💾 Redis connected
+2026-03-17 18:31:16 [INFO]: 🗄️  Database connected
+2026-03-17 18:31:18 [INFO]: ✅ Database connected successfully
+2026-03-17 18:32:54 [INFO]: GET / 200 24ms
+2026-03-17 18:32:54 [INFO]: GET /assets/index-CFWB3-6-.css 200 16ms
+2026-03-17 18:32:54 [INFO]: GET /assets/index-C75aQn59.js 200 44ms
+2026-03-17 18:32:59 [INFO]: GET /assets/batu_logo-removebg-preview-CHupbwvY.png 200 4ms
+2026-03-17 18:33:00 [INFO]: GET /favicon.svg 200 3ms
+2026-03-17 18:33:36 [WARN]: Slow API Request
+2026-03-17 18:33:36 [WARN]: Slow API Request
+2026-03-17 18:33:36 [INFO]: POST /admin-login 200 4386ms
+2026-03-17 18:33:37 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 18:33:37 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: AxaZt_oTUUPzRpQXAAAB)
+2026-03-17 18:33:38 [WARN]: Slow API Request
+2026-03-17 18:33:38 [WARN]: Slow API Request
+2026-03-17 18:33:38 [INFO]: GET /stats 200 2099ms
+2026-03-17 18:33:38 [INFO]: GET /assets/batu_logo-removebg-preview-CHupbwvY.png 304 2ms
+2026-03-17 18:33:47 [WARN]: Slow API Request
+2026-03-17 18:33:47 [WARN]: Slow API Request
+2026-03-17 18:33:47 [INFO]: GET /stats 304 1534ms
+2026-03-17 18:33:48 [WARN]: Slow API Request
+2026-03-17 18:33:48 [WARN]: Slow API Request
+2026-03-17 18:33:48 [INFO]: GET /approved-users 200 1273ms
+2026-03-17 18:36:33 [INFO]: OPTIONS /api/auth/admin-login 204 2ms
+2026-03-17 18:36:35 [WARN]: Slow API Request
+2026-03-17 18:36:35 [WARN]: Slow API Request
+2026-03-17 18:36:35 [INFO]: POST /admin-login 200 2523ms
+2026-03-17 18:36:35 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 18:36:35 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 18:36:35 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: yMO1kLOnc2IUjPSaAAAD)
+2026-03-17 18:36:36 [WARN]: Slow API Request
+2026-03-17 18:36:36 [WARN]: Slow API Request
+2026-03-17 18:36:36 [INFO]: GET /stats 200 1011ms
+2026-03-17 18:36:44 [INFO]: OPTIONS /api/admin/stats 204 1ms
+2026-03-17 18:36:45 [WARN]: Slow API Request
+2026-03-17 18:36:45 [WARN]: Slow API Request
+2026-03-17 18:36:45 [INFO]: GET /stats 304 1005ms
+2026-03-17 18:37:00 [INFO]: OPTIONS /api/admin/broadcast 204 0ms
+2026-03-17 18:37:04 [WARN]: Slow API Request
+2026-03-17 18:37:04 [WARN]: Slow API Request
+2026-03-17 18:37:04 [INFO]: POST /broadcast 200 3838ms
+2026-03-17 18:37:09 [INFO]: User a51a080a-498f-4e91-a2cc-0d4a711d337b joined room: feed
+2026-03-17 18:37:09 [INFO]: OPTIONS /api/auth/logout 204 1ms
+2026-03-17 18:37:09 [INFO]: OPTIONS /api/messages/unread/count 204 1ms
+2026-03-17 18:37:09 [INFO]: POST /logout 401 2ms
+2026-03-17 18:37:09 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 18:37:09 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 18:37:09 [INFO]: GET /unread/count 401 2ms
+2026-03-17 18:37:09 [INFO]: GET /unread-count 401 6ms
+2026-03-17 18:37:09 [INFO]: OPTIONS /api/auth/refresh-token 204 1ms
+2026-03-17 18:37:09 [INFO]: GET /posts 401 1ms
+2026-03-17 18:37:09 [INFO]: OPTIONS /api/auth/refresh-token 204 0ms
+2026-03-17 18:37:10 [INFO]: POST /refresh-token 401 269ms
+2026-03-17 18:37:10 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: yMO1kLOnc2IUjPSaAAAD)
+2026-03-17 18:37:11 [WARN]: Slow API Request
+2026-03-17 18:37:11 [WARN]: Slow API Request
+2026-03-17 18:37:11 [INFO]: POST /refresh-token 401 1994ms
+2026-03-17 18:37:12 [WARN]: Slow API Request
+2026-03-17 18:37:12 [WARN]: Slow API Request
+2026-03-17 18:37:12 [INFO]: POST /refresh-token 401 2010ms
+2026-03-17 18:37:12 [WARN]: Slow API Request
+2026-03-17 18:37:12 [WARN]: Slow API Request
+2026-03-17 18:37:12 [INFO]: POST /refresh-token 401 2106ms
+2026-03-17 18:37:26 [INFO]: OPTIONS /api/auth/login 204 0ms
+2026-03-17 18:37:29 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:37:29 [WARN]: Slow API Request
+2026-03-17 18:37:29 [WARN]: Slow API Request
+2026-03-17 18:37:29 [INFO]: POST /login 200 2504ms
+2026-03-17 18:37:29 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 18:37:29 [INFO]: GET /me 200 523ms
+2026-03-17 18:37:29 [INFO]: OPTIONS /api/messages/unread/count 204 1ms
+2026-03-17 18:37:29 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 18:37:30 [INFO]: OPTIONS /api/feed/posts 204 0ms
+2026-03-17 18:37:30 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:37:30 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: gOn5GhHdxMuFLz7lAAAF)
+2026-03-17 18:37:30 [INFO]: GET /unread/count 200 523ms
+2026-03-17 18:37:32 [WARN]: Slow API Request
+2026-03-17 18:37:32 [WARN]: Slow API Request
+2026-03-17 18:37:32 [INFO]: GET /unread-count 200 2024ms
+2026-03-17 18:37:32 [WARN]: Slow API Request
+2026-03-17 18:37:32 [WARN]: Slow API Request
+2026-03-17 18:37:32 [INFO]: GET /posts 200 2274ms
+2026-03-17 18:37:34 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 18:37:34 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 18:37:35 [INFO]: GET /conversations 200 510ms
+2026-03-17 18:37:36 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 joined room: conversation:fecd6192-c76e-4aec-8473-9b82053a8b9d
+2026-03-17 18:37:36 [INFO]: OPTIONS /api/messages/with/fecd6192-c76e-4aec-8473-9b82053a8b9d 204 0ms
+2026-03-17 18:37:36 [INFO]: GET /conversations 304 255ms
+2026-03-17 18:37:37 [INFO]: GET /with/fecd6192-c76e-4aec-8473-9b82053a8b9d 200 780ms
+2026-03-17 18:37:43 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: conversation:fecd6192-c76e-4aec-8473-9b82053a8b9d
+2026-03-17 18:37:43 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 joined room: feed
+2026-03-17 18:37:43 [INFO]: OPTIONS /api/feed/posts 204 0ms
+2026-03-17 18:37:44 [INFO]: Feed cache hit for user fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:37:44 [INFO]: GET /posts 304 258ms
+2026-03-17 18:37:49 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 18:37:49 [INFO]: OPTIONS /api/network/all 204 1ms
+2026-03-17 18:37:49 [INFO]: GET /all 200 766ms
+2026-03-17 18:37:53 [INFO]: OPTIONS /api/network/user/3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628 204 0ms
+2026-03-17 18:37:54 [INFO]: GET /user/3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628 200 504ms
+2026-03-17 18:37:54 [INFO]: OPTIONS /api/feed/posts 204 0ms
+2026-03-17 18:37:54 [INFO]: Feed cache hit for user fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:37:54 [INFO]: GET /posts 304 254ms
+2026-03-17 18:37:58 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 joined room: feed
+2026-03-17 18:37:58 [INFO]: Feed cache hit for user fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:37:58 [INFO]: GET /posts 304 257ms
+2026-03-17 18:37:59 [INFO]: User fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 left room: feed
+2026-03-17 18:37:59 [INFO]: OPTIONS /api/notifications 204 0ms
+2026-03-17 18:38:00 [INFO]: GET / 200 509ms
+2026-03-17 18:38:00 [INFO]: OPTIONS /api/notifications/read-all 204 1ms
+2026-03-17 18:38:00 [INFO]: PUT /read-all 200 519ms
+2026-03-17 18:38:02 [INFO]: OPTIONS /api/auth/me 204 0ms
+2026-03-17 18:38:03 [INFO]: GET /me 304 507ms
+2026-03-17 18:38:06 [INFO]: OPTIONS /api/auth/logout 204 1ms
+2026-03-17 18:38:06 [INFO]: User logged out: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:38:06 [INFO]: POST /logout 200 509ms
+2026-03-17 18:38:06 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: gOn5GhHdxMuFLz7lAAAF)
+2026-03-17 18:40:27 [INFO]: OPTIONS /api/auth/login 204 1ms
+2026-03-17 18:40:31 [INFO]: User logged in: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:40:31 [WARN]: Slow API Request
+2026-03-17 18:40:31 [WARN]: Slow API Request
+2026-03-17 18:40:31 [INFO]: POST /login 200 4144ms
+2026-03-17 18:40:31 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 18:40:32 [INFO]: GET /me 304 521ms
+2026-03-17 18:40:32 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 18:40:32 [INFO]: OPTIONS /api/notifications/unread-count 204 1ms
+2026-03-17 18:40:32 [INFO]: OPTIONS /api/feed/posts 204 0ms
+2026-03-17 18:40:32 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:40:32 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: BA8VRygMzCtdXkcPAAAH)
+2026-03-17 18:40:33 [INFO]: GET /unread/count 200 784ms
+2026-03-17 18:40:36 [WARN]: Slow API Request
+2026-03-17 18:40:36 [WARN]: Slow API Request
+2026-03-17 18:40:36 [INFO]: GET /posts 304 3811ms
+2026-03-17 18:40:46 [WARN]: Slow API Request
+2026-03-17 18:40:46 [WARN]: Slow API Request
+2026-03-17 18:40:46 [INFO]: GET /unread-count 304 14416ms
+2026-03-17 18:40:52 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: AxaZt_oTUUPzRpQXAAAB)
+2026-03-17 18:45:14 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 18:45:14 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: ElpdItSBKX1WF28YAAAJ)
+2026-03-17 18:45:35 [WARN]: Slow API Request
+2026-03-17 18:45:35 [WARN]: Slow API Request
+2026-03-17 18:45:35 [INFO]: GET /report-filters 200 5858ms
+2026-03-17 18:45:39 [WARN]: Slow API Request
+2026-03-17 18:45:39 [WARN]: Slow API Request
+2026-03-17 18:45:39 [INFO]: GET /stats 304 10034ms
+2026-03-17 18:45:40 [INFO]: GET /stats 304 1000ms
+2026-03-17 18:45:41 [INFO]: GET /approved-users 200 250ms
+2026-03-17 18:45:41 [INFO]: GET /stats 304 988ms
+2026-03-17 18:47:30 [INFO]: OPTIONS /api/auth/logout 204 3ms
+2026-03-17 18:47:32 [INFO]: User logged out: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 18:47:32 [WARN]: Slow API Request
+2026-03-17 18:47:32 [WARN]: Slow API Request
+2026-03-17 18:47:32 [INFO]: POST /logout 200 1989ms
+2026-03-17 18:47:32 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: BA8VRygMzCtdXkcPAAAH)
+2026-03-17 18:51:39 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: ElpdItSBKX1WF28YAAAJ)
+2026-03-17 18:53:16 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 18:53:16 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: AnQl0hftBhaUBIySAAAL)
+2026-03-17 18:53:17 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: AnQl0hftBhaUBIySAAAL)
+2026-03-17 19:36:57 [INFO]: ✅ Socket.IO initialized
+2026-03-17 19:36:57 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 19:36:57 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 19:36:57 [INFO]: 📍 Environment: development
+2026-03-17 19:36:57 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 19:36:57 [INFO]: 💾 Redis connected
+2026-03-17 19:36:57 [INFO]: 🗄️  Database connected
+2026-03-17 19:37:03 [INFO]: ✅ Database connected successfully
+2026-03-17 19:37:06 [INFO]: OPTIONS /api/auth/admin-login 204 6ms
+2026-03-17 19:37:07 [WARN]: Slow API Request
+2026-03-17 19:37:07 [WARN]: Slow API Request
+2026-03-17 19:37:07 [INFO]: POST /admin-login 200 1246ms
+2026-03-17 19:37:07 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 19:37:07 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 19:37:07 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: cA1HpUkGlmM-X-LHAAAB)
+2026-03-17 19:37:09 [WARN]: Slow API Request
+2026-03-17 19:37:09 [WARN]: Slow API Request
+2026-03-17 19:37:09 [INFO]: GET /stats 304 1462ms
+2026-03-17 19:38:04 [INFO]: ✅ Socket.IO initialized
+2026-03-17 19:38:05 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 19:38:05 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 19:38:05 [INFO]: 📍 Environment: development
+2026-03-17 19:38:05 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 19:38:05 [INFO]: 💾 Redis connected
+2026-03-17 19:38:05 [INFO]: 🗄️  Database connected
+2026-03-17 19:38:09 [INFO]: OPTIONS /api/auth/admin-login 204 6ms
+2026-03-17 19:38:09 [INFO]: ✅ Database connected successfully
+2026-03-17 19:38:13 [WARN]: Slow API Request
+2026-03-17 19:38:13 [WARN]: Slow API Request
+2026-03-17 19:38:13 [INFO]: POST /admin-login 200 4695ms
+2026-03-17 19:38:14 [INFO]: OPTIONS /api/admin/stats 204 1ms
+2026-03-17 19:38:14 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 19:38:14 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: UCu2UHX2_bssAdxKAAAB)
+2026-03-17 19:38:14 [INFO]: User a51a080a-498f-4e91-a2cc-0d4a711d337b left room: feed
+2026-03-17 19:38:15 [WARN]: Slow API Request
+2026-03-17 19:38:15 [WARN]: Slow API Request
+2026-03-17 19:38:15 [INFO]: GET /stats 304 1364ms
+2026-03-17 19:48:24 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: UCu2UHX2_bssAdxKAAAB)
+2026-03-17 19:50:31 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
+2026-03-17 19:50:31 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: yZuHtHXsp9X_kAyYAAAD)
