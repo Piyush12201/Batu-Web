@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-900: #142a66;
+  --brand-800: #172554;
+  --brand-700: #1e3a8a;
+  --brand-600: #0e7490;
+  --brand-100: #e0e7ff;
+  --brand-50: #eef2ff;
+
+  --bg-canvas: #f2f6f9;
+  --bg-elevated: #ffffff;
+  --bg-soft: #e9f1f6;
+  --text-strong: #0f172a;
+  --text-muted: #475569;
+  --text-tertiary: #94a3b8;
+  --text-on-primary: #ffffff;
+
+  --border-subtle: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --divider: #e2e8f0;
+
+  --accent: #d4a017;
+  --accent-soft: #fef3c7;
+
+  --success: #16a34a;
+  --danger: #dc2626;
+  --warning: #f59e0b;
+  --info: #2563eb;
+
+  --success-soft: #dcfce7;
+  --danger-soft: #fee2e2;
+  --warning-soft: #fef3c7;
+  --info-soft: #dbeafe;
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+
+  --shadow-soft: 0 8px 22px rgba(16, 42, 59, 0.07);
+  --shadow-strong: 0 14px 36px rgba(16, 42, 59, 0.16);
+}
+
+body {
+  font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-strong);
+  background:
+    radial-gradient(circle at 8% -5%, rgba(22, 146, 179, 0.12), transparent 30%),
+    radial-gradient(circle at 92% 2%, rgba(11, 63, 82, 0.1), transparent 28%),
+    var(--bg-canvas);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8eef4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8ea4b4;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718b9d;
+}
+
+/* Loading animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  border: 3px solid #dfe9f0;
+  border-top: 3px solid var(--brand-700);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+/* Responsive utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 12px;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "batu-alumni-backend",
+  "version": "1.0.0",
+  "description": "Backend for BATU Alumni Connect platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup:db": "node setup-db.js",
+    "migrate": "node database/migrate.js",
+    "migrate:run": "node database/migrate.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:dev": "pm2 start ecosystem.dev.config.js",
+    "pm2:stop": "pm2 stop alumni-backend",
+    "pm2:restart": "pm2 restart alumni-backend",
+    "pm2:logs": "pm2 logs alumni-backend",
+    "pm2:monit": "pm2 monit",
+    "docker:build": "docker-compose -f ../docker-compose.yml build",
+    "docker:up": "docker-compose -f ../docker-compose.yml up -d",
+    "docker:down": "docker-compose -f ../docker-compose.yml down",
+    "docker:logs": "docker-compose -f ../docker-compose.yml logs -f backend",
+    "health": "curl http://localhost:5000/api/health",
+    "load-test": "cd ../load-tests && k6 run load-test.js",
+    "stress-test": "cd ../load-tests && k6 run stress-test.js",
+    "spike-test": "cd ../load-tests && k6 run spike-test.js"
+  },
+  "keywords": [
+    "alumni",
+    "network",
+    "nodejs",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bull": "^4.11.5",
+    "cloudinary": "^1.41.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.2.0",
+    "hpp": "^0.2.3",
+    "ioredis": "^5.3.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "redis": "^4.6.5",
+    "sharp": "^0.33.0",
+    "socket.io": "^4.6.1",
+    "winston": "^3.11.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

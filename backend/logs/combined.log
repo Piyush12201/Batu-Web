@@ -10987,3 +10987,111 @@ error: invalid input syntax for type uuid: "299c17de-53c3-450a-aa0c-4481f38d5994
 2026-03-13 12:35:15 [INFO]: GET /posts 401 1ms
 2026-03-13 12:35:15 [INFO]: POST /refresh-token 401 6ms
 2026-03-13 12:54:57 [INFO]: Resetting hourly metrics
+2026-03-17 12:43:31 [INFO]: ✅ Socket.IO initialized
+2026-03-17 12:43:32 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 12:43:32 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 12:43:32 [INFO]: 📍 Environment: development
+2026-03-17 12:43:32 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 12:43:32 [INFO]: 💾 Redis connected
+2026-03-17 12:43:32 [INFO]: 🗄️  Database connected
+2026-03-17 12:43:33 [INFO]: ✅ Database connected successfully
+2026-03-17 12:43:41 [INFO]: OPTIONS /api/auth/login 204 6ms
+2026-03-17 12:43:41 [INFO]: POST /login 401 160ms
+2026-03-17 12:43:47 [INFO]: OPTIONS /api/auth/admin-login 204 1ms
+2026-03-17 12:43:47 [INFO]: POST /admin-login 200 229ms
+2026-03-17 12:43:48 [INFO]: OPTIONS /api/admin/stats 204 1ms
+2026-03-17 12:43:48 [INFO]: GET /stats 200 17ms
+2026-03-17 12:43:48 [INFO]: GET /stats 304 8ms
+2026-03-17 12:43:48 [INFO]: Socket authenticated: 7ebe58e1-6fce-4a9f-843d-875b523a147c
+2026-03-17 12:43:48 [INFO]: User connected: 7ebe58e1-6fce-4a9f-843d-875b523a147c (Socket: xiqDC7SE4wBKCo2MAAAB)
+2026-03-17 12:43:51 [INFO]: GET /stats 304 5ms
+2026-03-17 12:43:51 [INFO]: OPTIONS /api/admin/pending-users 204 0ms
+2026-03-17 12:43:51 [INFO]: GET /pending-users 200 8ms
+2026-03-17 12:43:52 [INFO]: GET /stats 304 10ms
+2026-03-17 12:43:52 [INFO]: OPTIONS /api/admin/approved-users 204 1ms
+2026-03-17 12:43:52 [INFO]: GET /approved-users 200 31ms
+2026-03-17 12:43:54 [INFO]: OPTIONS /api/admin/stats 204 0ms
+2026-03-17 12:43:54 [INFO]: OPTIONS /api/admin/report-filters 204 0ms
+2026-03-17 12:43:54 [INFO]: GET /stats 304 7ms
+2026-03-17 12:43:54 [INFO]: GET /report-filters 200 21ms
+2026-03-17 12:43:56 [INFO]: OPTIONS /api/auth/logout 204 1ms
+2026-03-17 12:43:56 [INFO]: POST /logout 401 5ms
+2026-03-17 12:43:56 [INFO]: User 7ebe58e1-6fce-4a9f-843d-875b523a147c joined room: feed
+2026-03-17 12:43:56 [INFO]: User 7ebe58e1-6fce-4a9f-843d-875b523a147c left room: feed
+2026-03-17 12:43:56 [INFO]: User 7ebe58e1-6fce-4a9f-843d-875b523a147c joined room: feed
+2026-03-17 12:43:56 [INFO]: OPTIONS /api/messages/unread/count 204 0ms
+2026-03-17 12:43:56 [INFO]: GET /unread/count 401 2ms
+2026-03-17 12:43:56 [INFO]: OPTIONS /api/auth/refresh-token 204 4ms
+2026-03-17 12:43:56 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 12:43:56 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 12:43:56 [INFO]: GET /unread/count 401 1ms
+2026-03-17 12:43:56 [INFO]: OPTIONS /api/feed/posts 204 1ms
+2026-03-17 12:43:56 [INFO]: OPTIONS /api/notifications/unread-count 204 0ms
+2026-03-17 12:43:56 [INFO]: GET /unread-count 401 3ms
+2026-03-17 12:43:56 [INFO]: GET /posts 401 2ms
+2026-03-17 12:43:56 [INFO]: GET /unread-count 401 2ms
+2026-03-17 12:43:56 [INFO]: POST /refresh-token 401 26ms
+2026-03-17 12:43:56 [INFO]: User disconnected: 7ebe58e1-6fce-4a9f-843d-875b523a147c (Socket: xiqDC7SE4wBKCo2MAAAB)
+2026-03-17 12:43:56 [INFO]: POST /refresh-token 401 15ms
+2026-03-17 12:43:56 [INFO]: GET /posts 401 2ms
+2026-03-17 12:43:56 [INFO]: POST /refresh-token 401 8ms
+2026-03-17 12:43:56 [INFO]: POST /refresh-token 401 22ms
+2026-03-17 12:43:56 [INFO]: POST /refresh-token 401 114ms
+2026-03-17 12:43:56 [INFO]: POST /refresh-token 401 102ms
+2026-03-17 12:44:00 [INFO]: OPTIONS /api/auth/login 204 0ms
+2026-03-17 12:44:01 [INFO]: User logged in: 87b6cf26-c98c-4ffe-8af7-2c76759ff546
+2026-03-17 12:44:01 [INFO]: POST /login 200 176ms
+2026-03-17 12:44:01 [INFO]: OPTIONS /api/auth/me 204 1ms
+2026-03-17 12:44:01 [INFO]: GET /me 200 29ms
+2026-03-17 12:44:01 [INFO]: GET /unread/count 200 33ms
+2026-03-17 12:44:01 [INFO]: GET /unread-count 200 27ms
+2026-03-17 12:44:01 [INFO]: GET /unread/count 304 7ms
+2026-03-17 12:44:01 [INFO]: GET /unread-count 304 7ms
+2026-03-17 12:44:01 [INFO]: GET /posts 200 172ms
+2026-03-17 12:44:01 [INFO]: Feed cache hit for user 87b6cf26-c98c-4ffe-8af7-2c76759ff546
+2026-03-17 12:44:01 [INFO]: GET /posts 304 48ms
+2026-03-17 12:44:01 [INFO]: Socket authenticated: 87b6cf26-c98c-4ffe-8af7-2c76759ff546
+2026-03-17 12:44:01 [INFO]: User connected: 87b6cf26-c98c-4ffe-8af7-2c76759ff546 (Socket: AE11_qaqSOqTqTxIAAAD)
+2026-03-17 12:44:01 [INFO]: [CORS-UPLOADS] GET /uploads/alumni-app/profiles/1773379243334-397120000.jpg
+2026-03-17 12:44:01 [WARN]: [CORS-UPLOADS] File not found for request: alumni-app/profiles/1773379243334-397120000.jpg
+2026-03-17 12:44:01 [INFO]: GET /uploads/alumni-app/profiles/1773379243334-397120000.jpg 404 4ms
+2026-03-17 12:44:01 [INFO]: [CORS-UPLOADS] GET /uploads/alumni-app/posts/1773125583271-301999677.jpg
+2026-03-17 12:44:01 [INFO]: [CORS-UPLOADS] Serving: 1773125583271-301999677.jpg (124426 bytes) with CORS
+2026-03-17 12:44:01 [INFO]: [CORS-UPLOADS] GET /uploads/alumni-app/posts/1773030100545-802504416.jpg
+2026-03-17 12:44:01 [INFO]: [CORS-UPLOADS] Serving: 1773030100545-802504416.jpg (48748 bytes) with CORS
+2026-03-17 12:44:01 [INFO]: [CORS-UPLOADS] GET /uploads/alumni-app/posts/1773030285496-612317485.jpg
+2026-03-17 12:44:01 [INFO]: [CORS-UPLOADS] Serving: 1773030285496-612317485.jpg (48748 bytes) with CORS
+2026-03-17 12:44:01 [INFO]: GET /uploads/alumni-app/posts/1773030100545-802504416.jpg 200 13ms
+2026-03-17 12:44:01 [INFO]: GET /uploads/alumni-app/posts/1773030285496-612317485.jpg 200 14ms
+2026-03-17 12:44:01 [INFO]: GET /uploads/alumni-app/posts/1773125583271-301999677.jpg 200 23ms
+2026-03-17 12:44:04 [INFO]: User 87b6cf26-c98c-4ffe-8af7-2c76759ff546 left room: feed
+2026-03-17 12:44:04 [INFO]: OPTIONS /api/opportunities/list 204 0ms
+2026-03-17 12:44:04 [INFO]: GET /list 200 32ms
+2026-03-17 12:44:04 [INFO]: GET /list 304 8ms
+2026-03-17 12:44:05 [INFO]: OPTIONS /api/notifications 204 1ms
+2026-03-17 12:44:05 [INFO]: GET / 200 24ms
+2026-03-17 12:44:05 [INFO]: OPTIONS /api/notifications/read-all 204 0ms
+2026-03-17 12:44:05 [INFO]: GET / 304 22ms
+2026-03-17 12:44:05 [INFO]: PUT /read-all 200 18ms
+2026-03-17 12:44:05 [INFO]: PUT /read-all 200 7ms
+2026-03-17 12:44:06 [INFO]: OPTIONS /api/messages/conversations 204 1ms
+2026-03-17 12:44:06 [INFO]: GET /conversations 200 31ms
+2026-03-17 12:44:06 [INFO]: GET /conversations 304 10ms
+2026-03-17 12:44:06 [INFO]: [CORS-UPLOADS] GET /uploads/alumni-app/profiles/1773379243334-397120000.jpg
+2026-03-17 12:44:06 [WARN]: [CORS-UPLOADS] File not found for request: alumni-app/profiles/1773379243334-397120000.jpg
+2026-03-17 12:44:06 [INFO]: GET /uploads/alumni-app/profiles/1773379243334-397120000.jpg 404 2ms
+2026-03-17 12:44:08 [INFO]: User 87b6cf26-c98c-4ffe-8af7-2c76759ff546 joined room: conversation:299c17de-53c3-450a-aa0c-4481f38d5994
+2026-03-17 12:44:08 [INFO]: OPTIONS /api/messages/with/299c17de-53c3-450a-aa0c-4481f38d5994 204 1ms
+2026-03-17 12:44:08 [INFO]: GET /conversations 304 5ms
+2026-03-17 12:44:08 [INFO]: GET /with/299c17de-53c3-450a-aa0c-4481f38d5994 200 73ms
+2026-03-17 12:44:11 [INFO]: OPTIONS /api/messages/send 204 3ms
+2026-03-17 12:44:11 [INFO]: Message sent: acbbe70d-2a7b-4444-8827-b1889a013e00 from 87b6cf26-c98c-4ffe-8af7-2c76759ff546 to 299c17de-53c3-450a-aa0c-4481f38d5994
+2026-03-17 12:44:11 [INFO]: Processing notification job: message
+2026-03-17 12:44:11 [INFO]: POST /send 201 46ms
+2026-03-17 12:44:11 [INFO]: Notification created: message for user 299c17de-53c3-450a-aa0c-4481f38d5994 by 87b6cf26-c98c-4ffe-8af7-2c76759ff546
+2026-03-17 12:44:11 [INFO]: Notification job completed:
+2026-03-17 12:44:11 [INFO]: GET /conversations 200 70ms
+2026-03-17 12:44:19 [INFO]: OPTIONS /api/auth/logout 204 1ms
+2026-03-17 12:44:19 [INFO]: User logged out: 87b6cf26-c98c-4ffe-8af7-2c76759ff546
+2026-03-17 12:44:19 [INFO]: POST /logout 200 10ms
+2026-03-17 12:44:19 [INFO]: User disconnected: 87b6cf26-c98c-4ffe-8af7-2c76759ff546 (Socket: AE11_qaqSOqTqTxIAAAD)
