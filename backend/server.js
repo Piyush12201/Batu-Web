@@ -209,6 +209,28 @@ app.use('/api/messages', require('./routes/messages.routes'));
 app.use('/api/notifications', require('./routes/notifications.routes'));
 app.use('/api/upload', require('./routes/upload.routes'));
 
+// Serve the built frontend from the same backend process in production-like deployments.
+const webDistPath = path.resolve(__dirname, '../web/dist');
+const shouldServeFrontend = process.env.SERVE_FRONTEND !== 'false';
+
+if (shouldServeFrontend && fs.existsSync(webDistPath)) {
+  app.use(express.static(webDistPath));
+
+  app.get('*', (req, res, next) => {
+    if (
+      req.path === '/api' ||
+      req.path.startsWith('/api/') ||
+      req.path === '/uploads' ||
+      req.path.startsWith('/uploads/') ||
+      req.path.startsWith('/socket.io')
+    ) {
+      return next();
+    }
+
+    return res.sendFile(path.join(webDistPath, 'index.html'));
+  });
+}
+
 // Health check endpoint
 app.get('/api/health', async (req, res) => {
   try {

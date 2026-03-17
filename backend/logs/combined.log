@@ -12045,3 +12045,33 @@ error: column "revoked_at" does not exist
 2026-03-17 13:38:18 [WARN]: Slow API Request
 2026-03-17 13:38:18 [INFO]: POST /broadcast 200 2115ms
 2026-03-17 13:38:18 [INFO]: GET /broadcasts 200 290ms
+2026-03-17 13:41:16 [WARN]: Slow API Request
+2026-03-17 13:41:16 [WARN]: Slow API Request
+2026-03-17 13:41:16 [INFO]: GET /api/health 200 1508ms
+2026-03-17 13:41:20 [INFO]: User logged in: 3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628
+2026-03-17 13:41:20 [INFO]: POST /login 200 706ms
+2026-03-17 13:41:21 [INFO]: GET /me 200 668ms
+2026-03-17 13:41:21 [INFO]: GET /posts 200 448ms
+2026-03-17 13:41:22 [INFO]: GET /unread/count 200 410ms
+2026-03-17 13:41:22 [INFO]: GET /unread-count 200 212ms
+2026-03-17 13:41:23 [INFO]: Token refreshed for user: 3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628
+2026-03-17 13:41:23 [INFO]: POST /refresh-token 200 822ms
+2026-03-17 13:41:23 [INFO]: User logged out: 3aa1d3be-965b-4f5b-aa0a-f30dbe0ea628
+2026-03-17 13:41:23 [INFO]: POST /logout 200 412ms
+2026-03-17 13:41:24 [INFO]: POST /admin-login 200 786ms
+2026-03-17 13:41:25 [INFO]: GET /stats 200 912ms
+2026-03-17 13:41:27 [WARN]: Slow API Request
+2026-03-17 13:41:27 [WARN]: Slow API Request
+2026-03-17 13:41:27 [INFO]: POST /broadcast 200 1792ms
+2026-03-17 13:41:27 [INFO]: GET /broadcasts 200 206ms
+2026-03-17 13:42:04 [INFO]: Socket authenticated: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80
+2026-03-17 13:42:04 [INFO]: User connected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: p1JqZVtdyP_gu7l0AAAB)
+2026-03-17 13:48:04 [INFO]: User disconnected: fba7ad1d-b160-4ec4-9474-cdd8ddf0cb80 (Socket: p1JqZVtdyP_gu7l0AAAB)
+2026-03-17 18:30:06 [INFO]: ✅ Socket.IO initialized
+2026-03-17 18:30:06 [WARN]: ⚠️ Cloudinary not configured - images will be stored locally
+2026-03-17 18:30:06 [INFO]: 🚀 Server is running on http://0.0.0.0:5000
+2026-03-17 18:30:06 [INFO]: 📍 Environment: development
+2026-03-17 18:30:06 [INFO]: 🔌 Socket.IO enabled
+2026-03-17 18:30:06 [INFO]: 💾 Redis connected
+2026-03-17 18:30:06 [INFO]: 🗄️  Database connected
+2026-03-17 18:30:09 [INFO]: ✅ Database connected successfully
