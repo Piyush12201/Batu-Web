@@ -132,11 +132,8 @@ const LoginPage: React.FC = () => {
             </p>
           </div>
 
-          <div className="auth-demo-info">
-            <p className="auth-demo-title">Demo Credentials:</p>
-            <p className="auth-demo-text">User: demo@batu.edu / demo123</p>
-            <p className="auth-demo-text">Admin: admin@batu-alumni.com / Admin@123</p>
-          </div>
+          
+          
         </div>
       </div>
     </div>
