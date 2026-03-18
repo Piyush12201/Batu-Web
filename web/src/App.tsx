@@ -10,6 +10,7 @@ import OpportunitiesPage from './pages/OpportunitiesPage';
 import MessagesPage from './pages/MessagesPage';
 import ProfilePage from './pages/ProfilePage';
 import AdminPage from './pages/AdminPage';
+import AdminUserProfilePage from './pages/AdminUserProfilePage';
 import ActivityFeedPage from './pages/ActivityFeedPage';
 import HomePage from './pages/HomePage';
 import './App.css';
@@ -34,7 +35,7 @@ const PrivateRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 };
 
 const PublicRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const { isAuthenticated, isLoading } = useAuth();
+  const { isAuthenticated, isLoading, isAdmin } = useAuth();
 
   if (isLoading) {
     return (
@@ -49,7 +50,30 @@ const PublicRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     );
   }
 
-  return !isAuthenticated ? <>{children}</> : <Navigate to="/feed" />;
+  return !isAuthenticated ? <>{children}</> : <Navigate to={isAdmin ? '/admin' : '/feed'} />;
+};
+
+const AdminRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const { isAuthenticated, isLoading, isAdmin } = useAuth();
+
+  if (isLoading) {
+    return (
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh'
+      }}>
+        <div className="loading-spinner"></div>
+      </div>
+    );
+  }
+
+  if (!isAuthenticated) {
+    return <Navigate to="/login" />;
+  }
+
+  return isAdmin ? <>{children}</> : <Navigate to="/feed" />;
 };
 
 function App() {
@@ -89,9 +113,14 @@ function App() {
         
         {/* Admin Route - Standalone without sidebar */}
         <Route path="/admin" element={
-          <PrivateRoute>
+          <AdminRoute>
             <AdminPage />
-          </PrivateRoute>
+          </AdminRoute>
+        } />
+        <Route path="/admin/profile/:userId" element={
+          <AdminRoute>
+            <AdminUserProfilePage />
+          </AdminRoute>
         } />
       </Routes>
     </div>

@@ -221,7 +221,7 @@ const AdminPage: React.FC = () => {
   };
 
   const handleViewProfile = (userId: string) => {
-    navigate(`/profile/${userId}`);
+    navigate(`/admin/profile/${userId}`);
   };
 
   const toggleFilterSelection = (filterType: string, value: string) => {

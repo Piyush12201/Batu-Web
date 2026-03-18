@@ -12277,3 +12277,4 @@ error: column "revoked_at" does not exist
 2026-03-17 19:48:24 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: UCu2UHX2_bssAdxKAAAB)
 2026-03-17 19:50:31 [INFO]: Socket authenticated: a51a080a-498f-4e91-a2cc-0d4a711d337b
 2026-03-17 19:50:31 [INFO]: User connected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: yZuHtHXsp9X_kAyYAAAD)
+2026-03-17 19:53:36 [INFO]: User disconnected: a51a080a-498f-4e91-a2cc-0d4a711d337b (Socket: yZuHtHXsp9X_kAyYAAAD)
